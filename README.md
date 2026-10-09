@@ -7,7 +7,7 @@ transformer condition monitoring.
 **核心特点：零第三方依赖。** 整个诊断内核只用 Python 标准库，可运行于
 Jetson Nano（JetPack 4.6.4 / Python 3.6 / aarch64）。
 
-[![CI](https://img.shields.io/badge/CI-pending-lightgrey)](#)
+[![CI](https://github.com/pppengs/dga-edge/actions/workflows/ci.yml/badge.svg)](https://github.com/pppengs/dga-edge/actions/workflows/ci.yml)
 ![python](https://img.shields.io/badge/python-3.6%20%7C%203.13-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
