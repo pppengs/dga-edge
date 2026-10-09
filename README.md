@@ -24,8 +24,7 @@ Python 3.6 上没有可靠 wheel，而诊断算法本身其实**根本不需要�
 
 > **关于创新性的边界**：上面这句话只针对**开源项目**。商业在线监测装置早已把
 > Duval 判定写进固件（闭源），2025–2026 也有多篇边缘端 DGA 论文（但全是机器
-> 学习路线，依赖深度学习框架）。本项目的位置、可声称与不可声称的创新点，
-> 见 [`docs/NOVELTY.md`](docs/NOVELTY.md)——**写论文前请先读**。
+> 学习路线，依赖深度学习框架）。
 
 | 指标 | 实测（宿主 x86） |
 |---|---|
@@ -43,8 +42,6 @@ Python 3.6 上没有可靠 wheel，而诊断算法本身其实**根本不需要�
 ---
 
 ## 实现的方法
-
-系统分两半，回答两个不同的问题。
 
 ### 故障诊断（which fault?）
 
@@ -70,13 +67,6 @@ Python 3.6 上没有可靠 wheel，而诊断算法本身其实**根本不需要�
 
 **每条阈值的出处都记录在 [`docs/STANDARDS.md`](docs/STANDARDS.md)**，包括文献
 之间的分歧点以及本项目如何取舍。没有任何一个表是凭记忆写的。
-
-从标准里读出来的两个可验证结论（见 `docs/STANDARDS.md` §7.2）：
-
-- **TDCG 分级永远不会成为限制因素。** 每一级的"各气体限值之和"都小于该级的
-  TDCG 限值（686<720、1879<1920、4585<4630），所以单气体限值恒严于 TDCG。
-  这一点用 2000 组随机样本做了属性测试，不是推测。
-- **乙炔是最严的通道**：2 ppm 即 Condition 2，35 ppm 即 Condition 4。
 
 ---
 
@@ -150,22 +140,6 @@ python tools/verify_all.py --full   # 另跑数据集验证、状态验证与基
 
 `verify_all.py` 跑的就是 CI 的全部门禁：单测、Python 3.6 语法、第三方导入扫描、
 以及**在禁用 site-packages 的子进程里导入**（这才是"零依赖"的真正检验）。
-
-### 一个值得记下的门禁失效案例
-
-`tools/check_py36_compat.py` 里的"自文档 f-string（`f"{x=}"`，Python 3.8+）"检测
-**曾经完全失效**：它按 `tokenize.STRING` 提取 f-string，而 **Python 3.12 起
-（PEP 701）f-string 被拆成 `FSTRING_START` / `FSTRING_MIDDLE` / `FSTRING_END`，
-表达式部分甚至变成普通 `NAME`/`OP` token**。结果是：CI 在 3.13 上跑，报告
-"0 violations"，实际一个都没查。
-
-这类失效比误报更危险——**门禁绿灯，但它什么也没查**。现在检测改为按源码位置
-切片重建整流，并配了 20 个正反用例锁住行为
-（`tests/test_py36_compat.py`），包括"普通字符串里提到这个语法不能被误报"——
-因为原版检查器**把自己的提示文本当成了违规**。
-
-同一个文件里还修了一处：跨 Windows 盘符时 `os.path.relpath` 会抛
-`ValueError`，让"检查某个目录"直接崩溃。
 
 ---
 
@@ -255,7 +229,7 @@ deployment/jetson-nano/   setup.sh、systemd unit、spool 监听、tegrastats �
 experiments/         数据集加载、方法验证、状态验证、基准测试、可行性 spike（仅宿主机）
 examples/            合成示例 CSV（批量 / 时间序列 / 中文列名）
 tools/               Python 3.6 兼容性检查、一键验证门禁
-tests/              87 个单测（内核 + 管线 + CLI），零依赖
+tests/              102 个单测（内核 + 管线 + CLI），零依赖
 docs/                STANDARDS.md、DEPLOY_JETSON_NANO.md
 ```
 
@@ -332,7 +306,7 @@ sample across all four methods plus the condition assessment, ~87,000 samples/s
 throughput, and effectively no heap retained per diagnosis. Validated on 791 real
 public samples across two datasets.
 
-Two results are worth carrying forward:
+Three results are worth carrying forward:
 
 1. **Decision rate and accuracy must always be reported together.** Duval
    Triangle has no "normal" zone, so it is forced to misclassify every healthy
