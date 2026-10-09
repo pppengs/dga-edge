@@ -101,11 +101,12 @@ class TestOtherGatesStillFire(unittest.TestCase):
 
     def _problems_for(self, source):
         import tempfile
-        with tempfile.NamedTemporaryFile("w", suffix=".py", delete=False,
-                                         encoding="utf-8") as fh:
-            fh.write(source)
-            path = fh.name
+        # NamedTemporaryFile only takes `encoding` from 3.9 on, and this suite
+        # is deliberately run on the 3.6 target as well.
+        fd, path = tempfile.mkstemp(suffix=".py")
         try:
+            with os.fdopen(fd, "w", encoding="utf-8") as fh:
+                fh.write(source)
             return c36.check_file(path)
         finally:
             os.unlink(path)

@@ -193,13 +193,36 @@ def check_string_features(source, path, problems):
                  "Python 3.8"))
 
 
+def _version_of_unparsable(source, lineno):
+    """Guess which Python first accepts a snippet that will not parse here.
+
+    The gate normally runs on a modern interpreter, so newer syntax parses fine
+    and is reported by the AST visitors. On 3.6 itself those same snippets raise
+    SyntaxError before any AST exists; answering "?" there would hide the reason
+    and would also fail this gate's own tests on the interpreter it targets.
+    """
+    lines = source.splitlines()
+    line = lines[lineno - 1] if 0 < lineno <= len(lines) else source
+    if ":=" in line:
+        return "3.8"
+    if "except*" in line:
+        return "3.11"
+    if line.lstrip().startswith("match "):
+        return "3.10"
+    if ", /," in line or ", /)" in line:
+        return "3.8"
+    return "?"
+
+
 def check_file(path):
     with open(path, "r", encoding="utf-8") as fh:
         source = fh.read()
     try:
         tree = ast.parse(source, filename=path)
     except SyntaxError as exc:
-        return [(exc.lineno or 0, "?", "SYNTAX ERROR: {}".format(exc.msg))]
+        return [(exc.lineno or 0,
+                 _version_of_unparsable(source, exc.lineno or 0),
+                 "SYNTAX ERROR: {}".format(exc.msg))]
 
     checker = Checker(path)
     checker.visit(tree)
