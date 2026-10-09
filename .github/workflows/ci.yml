@@ -57,12 +57,33 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python: ["3.6", "3.9", "3.13"]
+        python: ["3.9", "3.13"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "${{ matrix.python }}"
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+
+  # 3.6 is the interpreter that ships with JetPack 4.6.4 on Jetson Nano, so it
+  # is the one that actually matters here. It was removed from the
+  # actions/setup-python manifests (EOL 2021-12), so run the suite inside the
+  # upstream 3.6 image rather than dropping the target from the matrix.
+  # The suite is stdlib-only, so the container needs no package install.
+  test36:
+    name: tests (python 3.6, Jetson target interpreter)
+    runs-on: ubuntu-latest
+    container: python:3.6
+    steps:
+      - name: Checkout
+        run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth 1 origin "${GITHUB_SHA}"
+          git checkout FETCH_HEAD
+      - name: Interpreter
+        run: python -VV
       - name: Unit tests
         run: python -m unittest discover -s tests -v
 
