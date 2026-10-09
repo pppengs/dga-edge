@@ -1,0 +1,103 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  # The deployable packages must stay dependency-free and Python 3.6 parseable.
+  # Since CI has no Jetson board, these two checks are the substitute.
+  contract:
+    name: deployment contract (no deps, py3.6 grammar)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Python 3.6 grammar check
+        run: python tools/check_py36_compat.py dga_core dga_service
+
+      - name: Reject third-party imports in deployable packages
+        run: |
+          python - <<'PY'
+          import ast, os, sys
+          BANNED = {"numpy", "pandas", "matplotlib", "scipy", "plotly",
+                    "sklearn", "openpyxl", "requests"}
+          bad = []
+          for pkg in ("dga_core", "dga_service"):
+              for root, _d, files in os.walk(pkg):
+                  for f in files:
+                      if not f.endswith(".py"):
+                          continue
+                      p = os.path.join(root, f)
+                      tree = ast.parse(open(p, encoding="utf-8").read(), p)
+                      for node in ast.walk(tree):
+                          names = []
+                          if isinstance(node, ast.Import):
+                              names = [a.name for a in node.names]
+                          elif isinstance(node, ast.ImportFrom) and node.module:
+                              names = [node.module]
+                          for n in names:
+                              if n.split(".")[0] in BANNED:
+                                  bad.append("{}: {}".format(p, n))
+          if bad:
+              print("third-party import found in a deployable package:")
+              print("\n".join(bad))
+              sys.exit(1)
+          print("OK - deployable packages import nothing outside the stdlib")
+          PY
+
+  test:
+    name: tests (python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.6", "3.9", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "${{ matrix.python }}"
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+
+  validate:
+    name: dataset validation (host, optional deps)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install openpyxl
+      - name: Fetch datasets
+        run: python scripts/fetch_datasets.py
+      - name: Method validation
+        run: python experiments/run_validation.py
+      - name: Condition grading vs. labels
+        run: python experiments/run_condition.py
+      - name: Benchmark
+        run: python experiments/run_benchmark.py --tag ci-x86
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-results
+          path: experiments/results/
+
+  verify:
+    name: verify_all (aggregate gate)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      # No site-packages install on purpose: verify_all must pass with nothing
+      # but the standard library, which is the whole deployment contract.
+      - run: python tools/verify_all.py
+

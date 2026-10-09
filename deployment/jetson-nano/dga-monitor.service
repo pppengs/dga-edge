@@ -1,0 +1,37 @@
+[Unit]
+Description=DGA transformer fault diagnosis (offline batch + watch mode)
+Documentation=file:///opt/dga-edge/docs/DEPLOY_JETSON_NANO.md
+After=network.target
+
+[Service]
+Type=simple
+User=dga
+Group=dga
+WorkingDirectory=/opt/dga-edge
+
+# Watch a spool directory: every CSV dropped in becomes a diagnosis run.
+# Deliberately no network dependency for the core path.
+ExecStart=/opt/dga-edge/deployment/jetson-nano/watch_spool.sh
+
+# Resource guards - the kernel is tiny, everything here is headroom for the
+# Python interpreter and logging.
+MemoryMax=256M
+CPUQuota=50%
+TasksMax=16
+
+Restart=on-failure
+RestartSec=5
+
+# Journald only; no filesystem writes outside /var/lib/dga-edge
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/dga-edge /var/log/dga-edge
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=dga-edge
+
+[Install]
+WantedBy=multi-user.target

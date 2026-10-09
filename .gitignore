@@ -1,0 +1,26 @@
+# Raw datasets are NEVER committed. No upstream dataset repository declares an
+# open-source licence, so redistributing the data would be a licence violation.
+# scripts/fetch_datasets.py downloads them into .cache/ and verifies SHA-256.
+.cache/
+data/raw/
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local scratch. examples/ IS tracked - those are small synthetic fixtures used
+# by the README walkthrough and the CLI smoke test, not real measurement data.
+out/
+spike_out.txt
+
+# Internal working notes. Kept locally on purpose - they are not part of the
+# public deliverable.
+docs/NOVELTY.md
+docs/PROGRESS.md
+
+# Virtualenvs
+.venv/
+venv/
+env/

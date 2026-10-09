@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dga-edge"
+version = "0.3.0"
+description = "Zero-dependency dissolved gas analysis (DGA) fault diagnosis and condition monitoring kernel for embedded transformer monitoring"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT" }
+authors = [{ name = "dga-edge contributors" }]
+keywords = [
+    "DGA", "dissolved gas analysis", "transformer", "condition monitoring",
+    "IEC 60599", "IEEE C57.104", "Duval triangle", "Rogers ratio",
+    "Jetson Nano", "embedded", "edge computing",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Topic :: System :: Hardware",
+]
+
+# Deliberately empty: having no runtime dependencies is a design property of
+# this project, not an oversight. The CI "contract" job and
+# tests/test_dga_core.py::TestZeroDependency both enforce it.
+dependencies = []
+
+[project.optional-dependencies]
+# Host-side only. Never installed on the embedded target.
+viz = ["matplotlib>=3.3"]
+datasets = ["openpyxl>=3.0"]
+# Everything needed to reproduce the reported results.
+dev = ["matplotlib>=3.3", "openpyxl>=3.0"]
+
+[project.urls]
+Documentation = "https://github.com/your-org/dga-edge/blob/main/docs/STANDARDS.md"
+
+[project.scripts]
+dga-cli = "dga_service.cli:main"
+
+[tool.setuptools]
+packages = ["dga_core", "dga_service"]
+
+[tool.setuptools.package-data]
+dga_core = ["py.typed"]
+dga_service = ["py.typed"]

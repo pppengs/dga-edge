@@ -1,0 +1,64 @@
+========================================================================
+DGA embedded feasibility spike
+python 3.13.14 on win32
+========================================================================
+
+[0] Dependency audit
+    modules pulled in by 'import dga_core': ['_typing', 'dga_core', 'typing']
+    non-stdlib modules: ['dga_core']
+
+[1] Code size (dga_core/, stdlib only)
+    __init__.py               940 bytes    34 lines  (  29 code)
+    exceptions.py             780 bytes    26 lines  (  15 code)
+    methods.py               9748 bytes   253 lines  ( 176 code)
+    models.py                2292 bytes    71 lines  (  52 code)
+    tables.py                2902 bytes    63 lines  (  40 code)
+    validation.py            3245 bytes    80 lines  (  54 code)
+    TOTAL                   19907 bytes   527 lines
+
+[1b] Runtime 'model' size
+    Duval Triangle 1: 7 zones, 40 vertices, 120 numbers
+    -> 0.9 KB of float data held in RAM
+
+[2] Import cost (cold, subprocess-free estimate)
+    re-import dga_core: 7.475 ms
+
+[3] Dataset loaded: 589 samples, header=['H2', 'CH4', 'C2H6', 'C2H4', 'C2H2', '故障类型']
+
+[4] Single-sample latency (20000 iterations, all 3 methods)
+    P50        8.0 us
+    P95       14.9 us
+    P99       19.0 us
+    mean       8.7 us
+
+[5] Batch throughput (589 real samples, best of 20)
+    wall      0.0061 s
+    rate      96,622 samples/s
+    per-sample   10.35 us
+
+[6] Python heap allocated by diagnosis
+    steady-state delta over 200 samples: 0 bytes (0.0 KB)
+    per-sample retained (should be ~0):  0 bytes
+    peak during run:                     2.1 KB
+
+[7] Sanity check on 589 real samples
+    duval_triangle1  T3=138  D1=126  D2=114  T2=84  T1=68  PD=33  DT=26
+                     decided 589/589 = 100.0%
+    iec_ratio        ND=212  D1=110  T3=85  T1=75  T2=60  D2=24  PD=23
+                     decided 377/589 = 64.0%
+    rogers_ratio     ND=294  T3=93  D2=91  T2=48  Normal=33  PD=15  T1=15
+                     decided 295/589 = 50.1%
+
+    samples containing sub-1e-3 sentinel values: 249 (42.3%)
+
+[8] Jetson Nano projection (ESTIMATE, not measured)
+    Cortex-A57 @1.43 GHz vs this host: assume 6x-10x slower single-thread
+    x6   P50    48.0 us   P99   114.0 us     16,104 samples/s
+    x8   P50    64.0 us   P99   152.0 us     12,078 samples/s
+    x10  P50    80.0 us   P99   190.0 us      9,662 samples/s
+    reference: a 1 Hz monitoring loop needs 1 sample/s;
+               a 100-transformer fleet at 1 Hz needs 100 samples/s.
+
+========================================================================
+Spike complete.
+========================================================================

@@ -1,0 +1,5 @@
+dataset,method,n_normal,flagged,false_alarm_pct
+cliango_202,iec_three_ratio,34,11,32.4
+cliango_202,iec_ratio,34,4,11.8
+cliango_202,rogers_ratio,34,10,29.4
+cliango_202,duval_triangle1,34,34,100.0

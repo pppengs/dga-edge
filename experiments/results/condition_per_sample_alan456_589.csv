@@ -1,0 +1,590 @@
+dataset,sample_id,truth,is_fault,condition,label,tdcg,tdcg_condition,limiting_gas,sampling_interval,alarm
+alan456_589,a589-0000,PD,1,4,Critical,3279.0,,C2H6,daily / continuous,1
+alan456_589,a589-0001,PD,1,4,Critical,2689.0,,H2,daily / continuous,1
+alan456_589,a589-0002,PD,1,3,Warning,99.0,,C2H2,weekly,1
+alan456_589,a589-0003,PD,1,2,Investigate,286.0,,H2,monthly,1
+alan456_589,a589-0004,PD,1,4,Critical,10408.0,,H2,daily / continuous,1
+alan456_589,a589-0005,PD,1,4,Critical,33725.0,,H2,daily / continuous,1
+alan456_589,a589-0006,PD,1,4,Critical,9349.0,,H2,daily / continuous,1
+alan456_589,a589-0007,PD,1,2,Investigate,266.5,,H2,monthly,1
+alan456_589,a589-0008,PD,1,2,Investigate,125.0,,H2,monthly,1
+alan456_589,a589-0009,PD,1,2,Investigate,186.0,,H2,monthly,1
+alan456_589,a589-0010,PD,1,3,Warning,1552.0,,H2,weekly,1
+alan456_589,a589-0011,PD,1,3,Warning,1612.59,,H2,weekly,1
+alan456_589,a589-0012,PD,1,2,Investigate,112.1,,H2,monthly,1
+alan456_589,a589-0013,PD,1,4,Critical,41309.0,,H2,daily / continuous,1
+alan456_589,a589-0014,PD,1,2,Investigate,175.0,,H2,monthly,1
+alan456_589,a589-0015,PD,1,4,Critical,1477.0,,C2H2,daily / continuous,1
+alan456_589,a589-0016,PD,1,2,Investigate,471.0,,H2,monthly,1
+alan456_589,a589-0017,PD,1,4,Critical,4570.0,,H2,daily / continuous,1
+alan456_589,a589-0018,PD,1,4,Critical,102803.0,,H2,daily / continuous,1
+alan456_589,a589-0019,PD,1,4,Critical,2705.554,,H2,daily / continuous,1
+alan456_589,a589-0020,PD,1,2,Investigate,224.4,,H2,monthly,1
+alan456_589,a589-0021,PD,1,2,Investigate,181.846,,H2,monthly,1
+alan456_589,a589-0022,PD,1,4,Critical,6719.0,,H2,daily / continuous,1
+alan456_589,a589-0023,PD,1,3,Warning,1821.0,,H2,weekly,1
+alan456_589,a589-0024,PD,1,3,Warning,1123.0,,H2,weekly,1
+alan456_589,a589-0025,PD,1,4,Critical,7659.0,,H2,daily / continuous,1
+alan456_589,a589-0026,PD,1,3,Warning,255.0,,C2H2,weekly,1
+alan456_589,a589-0027,PD,1,4,Critical,2433.0,,H2,daily / continuous,1
+alan456_589,a589-0028,PD,1,4,Critical,102800.0,,H2,daily / continuous,1
+alan456_589,a589-0029,PD,1,3,Warning,87.4,,C2H2,weekly,1
+alan456_589,a589-0030,PD,1,2,Investigate,555.0,,H2,monthly,1
+alan456_589,a589-0031,PD,1,2,Investigate,133.0,,H2,monthly,1
+alan456_589,a589-0032,PD,1,4,Critical,45000.0,,H2,daily / continuous,1
+alan456_589,a589-0033,PD,1,4,Critical,2203.0,,H2,daily / continuous,1
+alan456_589,a589-0034,PD,1,3,Warning,1088.0,,H2,weekly,1
+alan456_589,a589-0035,PD,1,2,Investigate,113.0,,H2,monthly,1
+alan456_589,a589-0036,PD,1,4,Critical,35484.0,,H2,daily / continuous,1
+alan456_589,a589-0037,PD,1,2,Investigate,230.6,,H2,monthly,1
+alan456_589,a589-0038,PD,1,2,Investigate,139.0,,H2,monthly,1
+alan456_589,a589-0039,PD,1,2,Investigate,223.2,,H2,monthly,1
+alan456_589,a589-0040,PD,1,4,Critical,303.0,,C2H6,daily / continuous,1
+alan456_589,a589-0041,PD,1,2,Investigate,231.0,,H2,monthly,1
+alan456_589,a589-0042,PD,1,2,Investigate,194.0,,H2,monthly,1
+alan456_589,a589-0043,PD,1,4,Critical,2577.0,,H2,daily / continuous,1
+alan456_589,a589-0044,D1,1,4,Critical,17479.0,,H2,daily / continuous,1
+alan456_589,a589-0045,D1,1,4,Critical,389.0,,C2H2,daily / continuous,1
+alan456_589,a589-0046,D1,1,3,Warning,122.33,,C2H2,weekly,1
+alan456_589,a589-0047,D1,1,3,Warning,201.7,,C2H2,weekly,1
+alan456_589,a589-0048,D1,1,3,Warning,85.0,,C2H2,weekly,1
+alan456_589,a589-0049,D1,1,4,Critical,194.0,,C2H2,daily / continuous,1
+alan456_589,a589-0050,D1,1,3,Warning,177.3,,C2H2,weekly,1
+alan456_589,a589-0051,D1,1,1,Normal,150.3,,,annual,0
+alan456_589,a589-0052,D1,1,4,Critical,7315.0,,H2,daily / continuous,1
+alan456_589,a589-0053,D1,1,2,Investigate,326.18,,H2,monthly,1
+alan456_589,a589-0054,D1,1,3,Warning,753.2,,H2,weekly,1
+alan456_589,a589-0055,D1,1,4,Critical,406.7,,C2H2,daily / continuous,1
+alan456_589,a589-0056,D1,1,3,Warning,268.0,,C2H2,weekly,1
+alan456_589,a589-0057,D1,1,4,Critical,4578.0,,H2,daily / continuous,1
+alan456_589,a589-0058,D1,1,4,Critical,11544.0,,H2,daily / continuous,1
+alan456_589,a589-0059,D1,1,4,Critical,2995.0,,C2H2,daily / continuous,1
+alan456_589,a589-0060,D1,1,4,Critical,360.2,,C2H2,daily / continuous,1
+alan456_589,a589-0061,D1,1,2,Investigate,14.68,,C2H2,monthly,1
+alan456_589,a589-0062,D1,1,2,Investigate,251.0,,H2,monthly,1
+alan456_589,a589-0063,D1,1,4,Critical,356.5,,C2H2,daily / continuous,1
+alan456_589,a589-0064,D1,1,4,Critical,717.1,,C2H2,daily / continuous,1
+alan456_589,a589-0065,D1,1,4,Critical,1541.0,,C2H2,daily / continuous,1
+alan456_589,a589-0066,D1,1,3,Warning,267.2,,C2H2,weekly,1
+alan456_589,a589-0067,D1,1,3,Warning,117.9,,C2H2,weekly,1
+alan456_589,a589-0068,D1,1,4,Critical,552.0,,C2H2,daily / continuous,1
+alan456_589,a589-0069,D1,1,4,Critical,5138.0,,H2,daily / continuous,1
+alan456_589,a589-0070,D1,1,4,Critical,60086.0,,H2,daily / continuous,1
+alan456_589,a589-0071,D1,1,4,Critical,10903.0,,H2,daily / continuous,1
+alan456_589,a589-0072,D1,1,4,Critical,473.0,,C2H2,daily / continuous,1
+alan456_589,a589-0073,D1,1,4,Critical,327.4,,C2H2,daily / continuous,1
+alan456_589,a589-0074,D1,1,3,Warning,150.0,,C2H2,weekly,1
+alan456_589,a589-0075,D1,1,4,Critical,387.5,,C2H2,daily / continuous,1
+alan456_589,a589-0076,D1,1,4,Critical,1171.0,,C2H2,daily / continuous,1
+alan456_589,a589-0077,D1,1,3,Warning,170.5,,C2H2,weekly,1
+alan456_589,a589-0078,D1,1,3,Warning,140.0,,C2H2,weekly,1
+alan456_589,a589-0079,D1,1,3,Warning,30.61,,C2H2,weekly,1
+alan456_589,a589-0080,D1,1,4,Critical,2060.0,,C2H2,daily / continuous,1
+alan456_589,a589-0081,D1,1,3,Warning,271.3,,C2H6,weekly,1
+alan456_589,a589-0082,D1,1,2,Investigate,239.0,,H2,monthly,1
+alan456_589,a589-0083,D1,1,4,Critical,207.29,,C2H2,daily / continuous,1
+alan456_589,a589-0084,D1,1,3,Warning,208.0,,C2H2,weekly,1
+alan456_589,a589-0085,D1,1,3,Warning,99.8,,C2H2,weekly,1
+alan456_589,a589-0086,D1,1,4,Critical,14377.0,,H2,daily / continuous,1
+alan456_589,a589-0087,D1,1,3,Warning,168.0,,C2H2,weekly,1
+alan456_589,a589-0088,D1,1,2,Investigate,82.0,,C2H2,monthly,1
+alan456_589,a589-0089,D1,1,4,Critical,665.0,,C2H2,daily / continuous,1
+alan456_589,a589-0090,D1,1,4,Critical,99.86,,C2H2,daily / continuous,1
+alan456_589,a589-0091,D1,1,4,Critical,4789.0,,H2,daily / continuous,1
+alan456_589,a589-0092,D1,1,4,Critical,1222.0,,C2H2,daily / continuous,1
+alan456_589,a589-0093,D1,1,4,Critical,458.0,,C2H2,daily / continuous,1
+alan456_589,a589-0094,D1,1,4,Critical,3646.0,,C2H2,daily / continuous,1
+alan456_589,a589-0095,D1,1,3,Warning,337.5,,C2H2,weekly,1
+alan456_589,a589-0096,D1,1,4,Critical,120.0,,C2H2,daily / continuous,1
+alan456_589,a589-0097,D1,1,3,Warning,229.4,,C2H2,weekly,1
+alan456_589,a589-0098,D1,1,3,Warning,30.7,,C2H2,weekly,1
+alan456_589,a589-0099,D1,1,4,Critical,436.0,,C2H2,daily / continuous,1
+alan456_589,a589-0100,D1,1,4,Critical,1140.0,,C2H2,daily / continuous,1
+alan456_589,a589-0101,D1,1,4,Critical,1021.0,,C2H2,daily / continuous,1
+alan456_589,a589-0102,D2,1,4,Critical,219.0,,C2H2,daily / continuous,1
+alan456_589,a589-0103,D2,1,4,Critical,729.0,,C2H2,daily / continuous,1
+alan456_589,a589-0104,D2,1,4,Critical,436.0,,C2H2,daily / continuous,1
+alan456_589,a589-0105,D2,1,3,Warning,326.0,,C2H2,weekly,1
+alan456_589,a589-0106,D2,1,4,Critical,368.0,,C2H2,daily / continuous,1
+alan456_589,a589-0107,D2,1,4,Critical,187.0,,C2H2,daily / continuous,1
+alan456_589,a589-0108,D2,1,4,Critical,1179.0,,C2H2,daily / continuous,1
+alan456_589,a589-0109,D2,1,4,Critical,1859.0,,C2H2,daily / continuous,1
+alan456_589,a589-0110,D2,1,4,Critical,28372.0,,H2,daily / continuous,1
+alan456_589,a589-0111,D2,1,3,Warning,239.2,,C2H6,weekly,1
+alan456_589,a589-0112,D2,1,3,Warning,233.0,,C2H2,weekly,1
+alan456_589,a589-0113,D2,1,3,Warning,120.0,,C2H2,weekly,1
+alan456_589,a589-0114,D2,1,4,Critical,89.0,,C2H2,daily / continuous,1
+alan456_589,a589-0115,D2,1,3,Warning,99.86,,C2H2,weekly,1
+alan456_589,a589-0116,D2,1,3,Warning,72.35,,C2H2,weekly,1
+alan456_589,a589-0117,D2,1,4,Critical,2215.0,,C2H2,daily / continuous,1
+alan456_589,a589-0118,D2,1,4,Critical,1051.0,,C2H2,daily / continuous,1
+alan456_589,a589-0119,D2,1,3,Warning,65.1,,C2H2,weekly,1
+alan456_589,a589-0120,D2,1,4,Critical,104.0,,C2H2,daily / continuous,1
+alan456_589,a589-0121,D2,1,4,Critical,554.0,,C2H2,daily / continuous,1
+alan456_589,a589-0122,D2,1,4,Critical,277.0,,C2H2,daily / continuous,1
+alan456_589,a589-0123,D2,1,4,Critical,239.0,,C2H2,daily / continuous,1
+alan456_589,a589-0124,D2,1,4,Critical,11657.0,,H2,daily / continuous,1
+alan456_589,a589-0125,D2,1,4,Critical,152.0,,C2H2,daily / continuous,1
+alan456_589,a589-0126,D2,1,4,Critical,4512.0,,C2H2,daily / continuous,1
+alan456_589,a589-0127,D2,1,4,Critical,132.0,,C2H2,daily / continuous,1
+alan456_589,a589-0128,D2,1,4,Critical,1899.0,,C2H2,daily / continuous,1
+alan456_589,a589-0129,D2,1,4,Critical,191.2,,C2H2,daily / continuous,1
+alan456_589,a589-0130,D2,1,4,Critical,510.0,,C2H2,daily / continuous,1
+alan456_589,a589-0131,D2,1,4,Critical,908.0,,C2H2,daily / continuous,1
+alan456_589,a589-0132,D2,1,3,Warning,118.2,,C2H2,weekly,1
+alan456_589,a589-0133,D2,1,4,Critical,732.0,,C2H2,daily / continuous,1
+alan456_589,a589-0134,D2,1,4,Critical,264.0,,C2H2,daily / continuous,1
+alan456_589,a589-0135,D2,1,4,Critical,1843.0,,C2H2,daily / continuous,1
+alan456_589,a589-0136,D2,1,4,Critical,390.0,,C2H2,daily / continuous,1
+alan456_589,a589-0137,D2,1,4,Critical,17137.0,,H2,daily / continuous,1
+alan456_589,a589-0138,D2,1,4,Critical,12934.0,,H2,daily / continuous,1
+alan456_589,a589-0139,D2,1,4,Critical,458.6,,C2H2,daily / continuous,1
+alan456_589,a589-0140,D2,1,4,Critical,751.08,,C2H2,daily / continuous,1
+alan456_589,a589-0141,D2,1,4,Critical,1176.0,,C2H2,daily / continuous,1
+alan456_589,a589-0142,D2,1,4,Critical,652.0,,C2H2,daily / continuous,1
+alan456_589,a589-0143,D2,1,4,Critical,271.7,,C2H2,daily / continuous,1
+alan456_589,a589-0144,D2,1,4,Critical,957.1,,C2H2,daily / continuous,1
+alan456_589,a589-0145,D2,1,4,Critical,33442.0,,H2,daily / continuous,1
+alan456_589,a589-0146,D2,1,4,Critical,820.0,,C2H2,daily / continuous,1
+alan456_589,a589-0147,D2,1,3,Warning,374.0,,C2H2,weekly,1
+alan456_589,a589-0148,D2,1,4,Critical,361.0,,C2H2,daily / continuous,1
+alan456_589,a589-0149,D2,1,4,Critical,105.0,,C2H2,daily / continuous,1
+alan456_589,a589-0150,D2,1,4,Critical,3937.0,,C2H2,daily / continuous,1
+alan456_589,a589-0151,D2,1,4,Critical,199.0,,C2H2,daily / continuous,1
+alan456_589,a589-0152,D2,1,4,Critical,2472.0,,C2H2,daily / continuous,1
+alan456_589,a589-0153,D2,1,4,Critical,18805.0,,H2,daily / continuous,1
+alan456_589,a589-0154,D2,1,4,Critical,16240.0,,H2,daily / continuous,1
+alan456_589,a589-0155,D2,1,3,Warning,249.0,,C2H2,weekly,1
+alan456_589,a589-0156,D2,1,3,Warning,206.0,,C2H2,weekly,1
+alan456_589,a589-0157,D2,1,3,Warning,156.53,,C2H2,weekly,1
+alan456_589,a589-0158,D2,1,4,Critical,283.0,,C2H6,daily / continuous,1
+alan456_589,a589-0159,D2,1,3,Warning,343.0,,C2H2,weekly,1
+alan456_589,a589-0160,D2,1,4,Critical,169.0,,C2H2,daily / continuous,1
+alan456_589,a589-0161,D2,1,4,Critical,209.0,,C2H2,daily / continuous,1
+alan456_589,a589-0162,D2,1,4,Critical,175.0,,C2H2,daily / continuous,1
+alan456_589,a589-0163,D2,1,4,Critical,4959.0,,H2,daily / continuous,1
+alan456_589,a589-0164,D2,1,4,Critical,13537.0,,H2,daily / continuous,1
+alan456_589,a589-0165,D2,1,4,Critical,2641.0,,C2H2,daily / continuous,1
+alan456_589,a589-0166,D2,1,3,Warning,60.0,,C2H2,weekly,1
+alan456_589,a589-0167,D2,1,4,Critical,6465.0,,CH4,daily / continuous,1
+alan456_589,a589-0168,D2,1,4,Critical,117.0,,C2H2,daily / continuous,1
+alan456_589,a589-0169,D2,1,4,Critical,3652.0,,C2H2,daily / continuous,1
+alan456_589,a589-0170,D2,1,4,Critical,3282.0,,H2,daily / continuous,1
+alan456_589,a589-0171,D2,1,4,Critical,10968.0,,H2,daily / continuous,1
+alan456_589,a589-0172,D2,1,4,Critical,11598.0,,H2,daily / continuous,1
+alan456_589,a589-0173,D2,1,4,Critical,216.0,,C2H2,daily / continuous,1
+alan456_589,a589-0174,D2,1,4,Critical,1021.0,,C2H2,daily / continuous,1
+alan456_589,a589-0175,D2,1,4,Critical,623.0,,C2H2,daily / continuous,1
+alan456_589,a589-0176,D2,1,4,Critical,14773.0,,H2,daily / continuous,1
+alan456_589,a589-0177,D2,1,3,Warning,209.0,,C2H2,weekly,1
+alan456_589,a589-0178,D2,1,3,Warning,109.0,,C2H2,weekly,1
+alan456_589,a589-0179,D2,1,4,Critical,97.0,,C2H2,daily / continuous,1
+alan456_589,a589-0180,D2,1,4,Critical,16240.0,,H2,daily / continuous,1
+alan456_589,a589-0181,D2,1,4,Critical,2080.0,,C2H2,daily / continuous,1
+alan456_589,a589-0182,D2,1,4,Critical,12855.0,,CH4,daily / continuous,1
+alan456_589,a589-0183,D2,1,3,Warning,234.3,,C2H2,weekly,1
+alan456_589,a589-0184,D2,1,4,Critical,516.0,,C2H2,daily / continuous,1
+alan456_589,a589-0185,D2,1,4,Critical,1121.0,,C2H2,daily / continuous,1
+alan456_589,a589-0186,D2,1,4,Critical,1601.5,,C2H2,daily / continuous,1
+alan456_589,a589-0187,D2,1,4,Critical,1609.0,,C2H2,daily / continuous,1
+alan456_589,a589-0188,D2,1,4,Critical,234.0,,C2H2,daily / continuous,1
+alan456_589,a589-0189,D2,1,4,Critical,444.0,,C2H2,daily / continuous,1
+alan456_589,a589-0190,D2,1,4,Critical,1100.0,,C2H2,daily / continuous,1
+alan456_589,a589-0191,D2,1,4,Critical,3259.0,,H2,daily / continuous,1
+alan456_589,a589-0192,D2,1,4,Critical,310.6,,C2H2,daily / continuous,1
+alan456_589,a589-0193,D2,1,3,Warning,189.0,,C2H2,weekly,1
+alan456_589,a589-0194,D2,1,4,Critical,88.6,,C2H2,daily / continuous,1
+alan456_589,a589-0195,D2,1,4,Critical,172.0,,C2H2,daily / continuous,1
+alan456_589,a589-0196,D2,1,2,Investigate,26.0,,C2H2,monthly,1
+alan456_589,a589-0197,D2,1,4,Critical,742.0,,C2H2,daily / continuous,1
+alan456_589,a589-0198,D2,1,3,Warning,137.0,,C2H2,weekly,1
+alan456_589,a589-0199,D2,1,4,Critical,473.0,,C2H2,daily / continuous,1
+alan456_589,a589-0200,D2,1,4,Critical,61.0,,C2H2,daily / continuous,1
+alan456_589,a589-0201,D2,1,4,Critical,244.0,,C2H2,daily / continuous,1
+alan456_589,a589-0202,D2,1,4,Critical,234.0,,C2H2,daily / continuous,1
+alan456_589,a589-0203,D2,1,4,Critical,1880.0,,C2H2,daily / continuous,1
+alan456_589,a589-0204,D2,1,4,Critical,1476.0,,C2H2,daily / continuous,1
+alan456_589,a589-0205,D2,1,4,Critical,1964.0,,C2H2,daily / continuous,1
+alan456_589,a589-0206,D2,1,4,Critical,1408.0,,C2H2,daily / continuous,1
+alan456_589,a589-0207,D2,1,4,Critical,34689.0,,H2,daily / continuous,1
+alan456_589,a589-0208,T1,1,4,Critical,528.0,,C2H6,daily / continuous,1
+alan456_589,a589-0209,T1,1,3,Warning,145.0,,C2H6,weekly,1
+alan456_589,a589-0210,T1,1,4,Critical,451.0,,C2H6,daily / continuous,1
+alan456_589,a589-0211,T1,1,3,Warning,194.0,,C2H6,weekly,1
+alan456_589,a589-0212,T1,1,2,Investigate,146.2,,C2H6,monthly,1
+alan456_589,a589-0213,T1,1,3,Warning,325.0,,C2H6,weekly,1
+alan456_589,a589-0214,T1,1,2,Investigate,158.0,,C2H4,monthly,1
+alan456_589,a589-0215,T1,1,2,Investigate,269.0,,H2,monthly,1
+alan456_589,a589-0216,T1,1,3,Warning,216.6,,C2H6,weekly,1
+alan456_589,a589-0217,T1,1,4,Critical,415.0,,C2H6,daily / continuous,1
+alan456_589,a589-0218,T1,1,4,Critical,559.7,,C2H6,daily / continuous,1
+alan456_589,a589-0219,T1,1,4,Critical,384.0,,C2H6,daily / continuous,1
+alan456_589,a589-0220,T1,1,4,Critical,543.0,,C2H6,daily / continuous,1
+alan456_589,a589-0221,T1,1,3,Warning,233.0,,C2H6,weekly,1
+alan456_589,a589-0222,T1,1,2,Investigate,250.0,,CH4,monthly,1
+alan456_589,a589-0223,T1,1,1,Normal,124.0,,,annual,0
+alan456_589,a589-0224,T1,1,3,Warning,208.0,,C2H6,weekly,1
+alan456_589,a589-0225,T1,1,4,Critical,809.0,,C2H6,daily / continuous,1
+alan456_589,a589-0226,T1,1,4,Critical,4506.0,,CH4,daily / continuous,1
+alan456_589,a589-0227,T1,1,2,Investigate,208.0,,C2H4,monthly,1
+alan456_589,a589-0228,T1,1,1,Normal,38.0,,,annual,0
+alan456_589,a589-0229,T1,1,3,Warning,189.0,,C2H6,weekly,1
+alan456_589,a589-0230,T1,1,2,Investigate,379.2,,H2,monthly,1
+alan456_589,a589-0231,T1,1,3,Warning,202.0,,C2H6,weekly,1
+alan456_589,a589-0232,T1,1,3,Warning,199.0,,C2H6,weekly,1
+alan456_589,a589-0233,T1,1,2,Investigate,116.0,,C2H6,monthly,1
+alan456_589,a589-0234,T1,1,4,Critical,457.0,,C2H6,daily / continuous,1
+alan456_589,a589-0235,T1,1,3,Warning,306.0,,C2H6,weekly,1
+alan456_589,a589-0236,T1,1,1,Normal,208.6,,,annual,0
+alan456_589,a589-0237,T1,1,4,Critical,437.6,,C2H6,daily / continuous,1
+alan456_589,a589-0238,T1,1,4,Critical,284.0,,C2H6,daily / continuous,1
+alan456_589,a589-0239,T1,1,4,Critical,779.0,,C2H6,daily / continuous,1
+alan456_589,a589-0240,T1,1,1,Normal,100.5,,,annual,0
+alan456_589,a589-0241,T1,1,4,Critical,455.0,,C2H6,daily / continuous,1
+alan456_589,a589-0242,T1,1,2,Investigate,276.1,,CH4,monthly,1
+alan456_589,a589-0243,T1,1,1,Normal,99.5,,,annual,0
+alan456_589,a589-0244,T1,1,2,Investigate,436.0,,H2,monthly,1
+alan456_589,a589-0245,T1,1,2,Investigate,119.0,,C2H6,monthly,1
+alan456_589,a589-0246,T1,1,4,Critical,765.0,,C2H6,daily / continuous,1
+alan456_589,a589-0247,T1,1,2,Investigate,193.0,,C2H6,monthly,1
+alan456_589,a589-0248,T1,1,4,Critical,11002.0,,CH4,daily / continuous,1
+alan456_589,a589-0249,T1,1,4,Critical,696.8,,C2H6,daily / continuous,1
+alan456_589,a589-0250,T1,1,4,Critical,788.4,,C2H6,daily / continuous,1
+alan456_589,a589-0251,T1,1,4,Critical,429.6,,C2H6,daily / continuous,1
+alan456_589,a589-0252,T1,1,3,Warning,414.0,,C2H4,weekly,1
+alan456_589,a589-0253,T1,1,2,Investigate,119.0,,C2H6,monthly,1
+alan456_589,a589-0254,T1,1,2,Investigate,269.0,,CH4,monthly,1
+alan456_589,a589-0255,T1,1,2,Investigate,161.0,,C2H6,monthly,1
+alan456_589,a589-0256,T1,1,2,Investigate,169.0,,C2H6,monthly,1
+alan456_589,a589-0257,T1,1,4,Critical,230.0,,C2H6,daily / continuous,1
+alan456_589,a589-0258,T1,1,4,Critical,277.0,,C2H6,daily / continuous,1
+alan456_589,a589-0259,T1,1,2,Investigate,266.0,,H2,monthly,1
+alan456_589,a589-0260,T1,1,3,Warning,163.5,,C2H6,weekly,1
+alan456_589,a589-0261,T1,1,3,Warning,181.1,,C2H6,weekly,1
+alan456_589,a589-0262,T1,1,1,Normal,10.5,,,annual,0
+alan456_589,a589-0263,T1,1,2,Investigate,512.0,,H2,monthly,1
+alan456_589,a589-0264,T1,1,3,Warning,190.0,,C2H6,weekly,1
+alan456_589,a589-0265,T1,1,1,Normal,82.0,,,annual,0
+alan456_589,a589-0266,T1,1,1,Normal,54.0,,,annual,0
+alan456_589,a589-0267,T1,1,4,Critical,316.0,,C2H6,daily / continuous,1
+alan456_589,a589-0268,T1,1,2,Investigate,419.0,,H2,monthly,1
+alan456_589,a589-0269,T1,1,4,Critical,260.0,,C2H6,daily / continuous,1
+alan456_589,a589-0270,T1,1,4,Critical,589.0,,C2H6,daily / continuous,1
+alan456_589,a589-0271,T1,1,2,Investigate,189.3,,C2H6,monthly,1
+alan456_589,a589-0272,T1,1,2,Investigate,291.0,,H2,monthly,1
+alan456_589,a589-0273,T1,1,4,Critical,386.0,,C2H6,daily / continuous,1
+alan456_589,a589-0274,T1,1,3,Warning,239.9,,C2H6,weekly,1
+alan456_589,a589-0275,T1,1,2,Investigate,200.8,,C2H6,monthly,1
+alan456_589,a589-0276,T1,1,1,Normal,83.0,,,annual,0
+alan456_589,a589-0277,T1,1,2,Investigate,276.0,,C2H6,monthly,1
+alan456_589,a589-0278,T1,1,4,Critical,258.0,,C2H6,daily / continuous,1
+alan456_589,a589-0279,T1,1,3,Warning,545.0,,C2H4,weekly,1
+alan456_589,a589-0280,T1,1,2,Investigate,223.0,,C2H2,monthly,1
+alan456_589,a589-0281,T1,1,4,Critical,1750.96,,C2H4,daily / continuous,1
+alan456_589,a589-0282,T2,1,2,Investigate,174.0,,C2H4,monthly,1
+alan456_589,a589-0283,T2,1,2,Investigate,144.0,,C2H4,monthly,1
+alan456_589,a589-0284,T2,1,2,Investigate,484.0,,H2,monthly,1
+alan456_589,a589-0285,T2,1,2,Investigate,284.0,,C2H4,monthly,1
+alan456_589,a589-0286,T2,1,2,Investigate,547.0,,H2,monthly,1
+alan456_589,a589-0287,T2,1,4,Critical,6638.0,,CH4,daily / continuous,1
+alan456_589,a589-0288,T2,1,4,Critical,2028.0,,C2H4,daily / continuous,1
+alan456_589,a589-0289,T2,1,4,Critical,1196.7,,C2H4,daily / continuous,1
+alan456_589,a589-0290,T2,1,2,Investigate,213.0,,C2H4,monthly,1
+alan456_589,a589-0291,T2,1,2,Investigate,186.0,,C2H4,monthly,1
+alan456_589,a589-0292,T2,1,4,Critical,1218.4,,C2H4,daily / continuous,1
+alan456_589,a589-0293,T2,1,4,Critical,1891.0,,C2H4,daily / continuous,1
+alan456_589,a589-0294,T2,1,2,Investigate,290.0,,CH4,monthly,1
+alan456_589,a589-0295,T2,1,2,Investigate,152.0,,C2H4,monthly,1
+alan456_589,a589-0296,T2,1,3,Warning,321.0,,C2H4,weekly,1
+alan456_589,a589-0297,T2,1,3,Warning,363.0,,C2H4,weekly,1
+alan456_589,a589-0298,T2,1,2,Investigate,339.0,,CH4,monthly,1
+alan456_589,a589-0299,T2,1,2,Investigate,287.0,,CH4,monthly,1
+alan456_589,a589-0300,T2,1,4,Critical,657.0,,C2H4,daily / continuous,1
+alan456_589,a589-0301,T2,1,2,Investigate,229.09,,C2H2,monthly,1
+alan456_589,a589-0302,T2,1,2,Investigate,150.0,,CH4,monthly,1
+alan456_589,a589-0303,T2,1,4,Critical,1109.0,,C2H4,daily / continuous,1
+alan456_589,a589-0304,T2,1,4,Critical,8073.0,,CH4,daily / continuous,1
+alan456_589,a589-0305,T2,1,3,Warning,595.0,,C2H4,weekly,1
+alan456_589,a589-0306,T2,1,4,Critical,661.0,,C2H4,daily / continuous,1
+alan456_589,a589-0307,T2,1,3,Warning,260.0,,C2H4,weekly,1
+alan456_589,a589-0308,T2,1,3,Warning,329.7,,C2H4,weekly,1
+alan456_589,a589-0309,T2,1,2,Investigate,125.0,,C2H4,monthly,1
+alan456_589,a589-0310,T2,1,4,Critical,19606.0,,H2,daily / continuous,1
+alan456_589,a589-0311,T2,1,4,Critical,1061.0,,C2H4,daily / continuous,1
+alan456_589,a589-0312,T2,1,4,Critical,828.0,,C2H4,daily / continuous,1
+alan456_589,a589-0313,T2,1,2,Investigate,267.0,,H2,monthly,1
+alan456_589,a589-0314,T2,1,4,Critical,1425.0,,C2H2,daily / continuous,1
+alan456_589,a589-0315,T2,1,4,Critical,7816.0,,CH4,daily / continuous,1
+alan456_589,a589-0316,T2,1,1,Normal,1.008,,,annual,0
+alan456_589,a589-0317,T2,1,3,Warning,257.9,,C2H4,weekly,1
+alan456_589,a589-0318,T2,1,1,Normal,94.5,,,annual,0
+alan456_589,a589-0319,T3,1,4,Critical,1096.0,,C2H4,daily / continuous,1
+alan456_589,a589-0320,T3,1,4,Critical,3422.0,,C2H2,daily / continuous,1
+alan456_589,a589-0321,T3,1,4,Critical,240642.0,,H2,daily / continuous,1
+alan456_589,a589-0322,T3,1,4,Critical,4043.0,,C2H4,daily / continuous,1
+alan456_589,a589-0323,T3,1,4,Critical,2609.0,,CH4,daily / continuous,1
+alan456_589,a589-0324,T3,1,4,Critical,973.0,,C2H4,daily / continuous,1
+alan456_589,a589-0325,T3,1,2,Investigate,78.63,,C2H2,monthly,1
+alan456_589,a589-0326,T3,1,2,Investigate,195.9,,C2H2,monthly,1
+alan456_589,a589-0327,T3,1,4,Critical,506.0,,C2H4,daily / continuous,1
+alan456_589,a589-0328,T3,1,4,Critical,849.98,,C2H4,daily / continuous,1
+alan456_589,a589-0329,T3,1,4,Critical,1753.0,,C2H4,daily / continuous,1
+alan456_589,a589-0330,T3,1,4,Critical,4957.0,,CH4,daily / continuous,1
+alan456_589,a589-0331,T3,1,2,Investigate,66.0,,C2H4,monthly,1
+alan456_589,a589-0332,T3,1,4,Critical,1908.0,,C2H4,daily / continuous,1
+alan456_589,a589-0333,T3,1,4,Critical,62349.0,,CH4,daily / continuous,1
+alan456_589,a589-0334,T3,1,2,Investigate,181.8,,C2H2,monthly,1
+alan456_589,a589-0335,T3,1,4,Critical,508.0,,C2H4,daily / continuous,1
+alan456_589,a589-0336,T3,1,4,Critical,4650.0,,CH4,daily / continuous,1
+alan456_589,a589-0337,T3,1,4,Critical,1153.0,,C2H4,daily / continuous,1
+alan456_589,a589-0338,T3,1,2,Investigate,69.0,,C2H4,monthly,1
+alan456_589,a589-0339,T3,1,4,Critical,646.0,,C2H4,daily / continuous,1
+alan456_589,a589-0340,T3,1,4,Critical,2394.0,,C2H4,daily / continuous,1
+alan456_589,a589-0341,T3,1,4,Critical,2766.0,,C2H2,daily / continuous,1
+alan456_589,a589-0342,T3,1,4,Critical,2478.0,,C2H4,daily / continuous,1
+alan456_589,a589-0343,T3,1,4,Critical,729.0,,C2H4,daily / continuous,1
+alan456_589,a589-0344,T3,1,4,Critical,37059.0,,H2,daily / continuous,1
+alan456_589,a589-0345,T3,1,4,Critical,764.0,,C2H4,daily / continuous,1
+alan456_589,a589-0346,T3,1,3,Warning,209.0,,C2H4,weekly,1
+alan456_589,a589-0347,T3,1,4,Critical,3016.0,,C2H2,daily / continuous,1
+alan456_589,a589-0348,T3,1,2,Investigate,107.0,,C2H4,monthly,1
+alan456_589,a589-0349,T3,1,4,Critical,16096.0,,H2,daily / continuous,1
+alan456_589,a589-0350,T3,1,4,Critical,42770.0,,CH4,daily / continuous,1
+alan456_589,a589-0351,T3,1,4,Critical,967.99,,C2H4,daily / continuous,1
+alan456_589,a589-0352,T3,1,4,Critical,828.0,,C2H4,daily / continuous,1
+alan456_589,a589-0353,T3,1,4,Critical,393.0,,C2H4,daily / continuous,1
+alan456_589,a589-0354,T3,1,4,Critical,1137.0,,C2H4,daily / continuous,1
+alan456_589,a589-0355,T3,1,4,Critical,3505.0,,C2H4,daily / continuous,1
+alan456_589,a589-0356,T3,1,4,Critical,2052.0,,C2H4,daily / continuous,1
+alan456_589,a589-0357,T3,1,4,Critical,300.9,,C2H6,daily / continuous,1
+alan456_589,a589-0358,T3,1,4,Critical,987.0,,C2H4,daily / continuous,1
+alan456_589,a589-0359,T3,1,4,Critical,81695.0,,H2,daily / continuous,1
+alan456_589,a589-0360,T3,1,3,Warning,370.0,,C2H4,weekly,1
+alan456_589,a589-0361,T3,1,2,Investigate,159.0,,C2H4,monthly,1
+alan456_589,a589-0362,T3,1,4,Critical,995.95,,C2H4,daily / continuous,1
+alan456_589,a589-0363,T3,1,2,Investigate,123.0,,C2H4,monthly,1
+alan456_589,a589-0364,T3,1,4,Critical,1374.0,,C2H4,daily / continuous,1
+alan456_589,a589-0365,T3,1,4,Critical,406.0,,C2H4,daily / continuous,1
+alan456_589,a589-0366,T3,1,4,Critical,1529.1,,C2H2,daily / continuous,1
+alan456_589,a589-0367,T3,1,4,Critical,1016.3,,C2H4,daily / continuous,1
+alan456_589,a589-0368,T3,1,3,Warning,290.0,,C2H4,weekly,1
+alan456_589,a589-0369,T3,1,3,Warning,142.0,,C2H4,weekly,1
+alan456_589,a589-0370,T3,1,4,Critical,546.1,,C2H4,daily / continuous,1
+alan456_589,a589-0371,T3,1,4,Critical,1731.0,,C2H2,daily / continuous,1
+alan456_589,a589-0372,T3,1,2,Investigate,147.0,,C2H4,monthly,1
+alan456_589,a589-0373,T3,1,4,Critical,62500.0,,H2,daily / continuous,1
+alan456_589,a589-0374,T3,1,2,Investigate,176.1,,C2H2,monthly,1
+alan456_589,a589-0375,T3,1,2,Investigate,154.0,,C2H4,monthly,1
+alan456_589,a589-0376,T3,1,2,Investigate,57.4,,C2H4,monthly,1
+alan456_589,a589-0377,T3,1,3,Warning,165.0,,C2H4,weekly,1
+alan456_589,a589-0378,T3,1,2,Investigate,149.0,,C2H4,monthly,1
+alan456_589,a589-0379,T3,1,4,Critical,59129.0,,CH4,daily / continuous,1
+alan456_589,a589-0380,T3,1,4,Critical,1626.0,,C2H4,daily / continuous,1
+alan456_589,a589-0381,T3,1,4,Critical,1781.0,,C2H4,daily / continuous,1
+alan456_589,a589-0382,T3,1,4,Critical,1529.2,,C2H2,daily / continuous,1
+alan456_589,a589-0383,PD,1,2,Investigate,117.0,,H2,monthly,1
+alan456_589,a589-0384,PD,1,4,Critical,389.0,,C2H2,daily / continuous,1
+alan456_589,a589-0385,PD,1,4,Critical,21000.0,,H2,daily / continuous,1
+alan456_589,a589-0386,PD,1,1,Normal,99.99,,,annual,0
+alan456_589,a589-0387,PD,1,4,Critical,4943.0,,C2H2,daily / continuous,1
+alan456_589,a589-0388,PD,1,1,Normal,118.0,,,annual,0
+alan456_589,a589-0389,PD,1,4,Critical,39805.0,,H2,daily / continuous,1
+alan456_589,a589-0390,PD,1,2,Investigate,128.0,,H2,monthly,1
+alan456_589,a589-0391,PD,1,4,Critical,1082.0,,C2H2,daily / continuous,1
+alan456_589,a589-0392,PD,1,4,Critical,42411.0,,H2,daily / continuous,1
+alan456_589,a589-0393,PD,1,3,Warning,269.3,,C2H6,weekly,1
+alan456_589,a589-0394,PD,1,1,Normal,97.03,,,annual,0
+alan456_589,a589-0395,PD,1,2,Investigate,148.0,,H2,monthly,1
+alan456_589,a589-0396,PD,1,2,Investigate,690.6,,H2,monthly,1
+alan456_589,a589-0397,PD,1,4,Critical,414.0,,C2H6,daily / continuous,1
+alan456_589,a589-0398,PD,1,2,Investigate,283.2,,H2,monthly,1
+alan456_589,a589-0399,PD,1,2,Investigate,125.0,,H2,monthly,1
+alan456_589,a589-0400,PD,1,4,Critical,20284.0,,H2,daily / continuous,1
+alan456_589,a589-0401,PD,1,4,Critical,1787.0,,C2H2,daily / continuous,1
+alan456_589,a589-0402,PD,1,4,Critical,2263.0,,H2,daily / continuous,1
+alan456_589,a589-0403,PD,1,4,Critical,47268.0,,H2,daily / continuous,1
+alan456_589,a589-0404,PD,1,4,Critical,2115.0,,H2,daily / continuous,1
+alan456_589,a589-0405,PD,1,2,Investigate,758.0,,H2,monthly,1
+alan456_589,a589-0406,PD,1,1,Normal,99.99,,,annual,0
+alan456_589,a589-0407,PD,1,2,Investigate,193.0,,H2,monthly,1
+alan456_589,a589-0408,PD,1,3,Warning,245.4,,C2H6,weekly,1
+alan456_589,a589-0409,PD,1,1,Normal,100.01,,,annual,0
+alan456_589,a589-0410,PD,1,2,Investigate,200.3,,H2,monthly,1
+alan456_589,a589-0411,PD,1,3,Warning,101.0,,C2H2,weekly,1
+alan456_589,a589-0412,PD,1,4,Critical,3622.0,,H2,daily / continuous,1
+alan456_589,a589-0413,D1,1,4,Critical,843.0,,C2H2,daily / continuous,1
+alan456_589,a589-0414,D1,1,4,Critical,204.0,,C2H2,daily / continuous,1
+alan456_589,a589-0415,D1,1,4,Critical,152.0,,C2H2,daily / continuous,1
+alan456_589,a589-0416,D1,1,2,Investigate,267.8,,H2,monthly,1
+alan456_589,a589-0417,D1,1,3,Warning,30.4,,C2H2,weekly,1
+alan456_589,a589-0418,D1,1,3,Warning,155.0,,C2H2,weekly,1
+alan456_589,a589-0419,D1,1,3,Warning,248.0,,C2H2,weekly,1
+alan456_589,a589-0420,D1,1,4,Critical,1104.3,,C2H2,daily / continuous,1
+alan456_589,a589-0421,D1,1,2,Investigate,175.0,,H2,monthly,1
+alan456_589,a589-0422,D1,1,4,Critical,66.0,,C2H2,daily / continuous,1
+alan456_589,a589-0423,D1,1,4,Critical,1608.0,,C2H2,daily / continuous,1
+alan456_589,a589-0424,D1,1,4,Critical,318.0,,C2H2,daily / continuous,1
+alan456_589,a589-0425,D1,1,4,Critical,714.0,,C2H2,daily / continuous,1
+alan456_589,a589-0426,D1,1,3,Warning,528.1,,C2H2,weekly,1
+alan456_589,a589-0427,D1,1,3,Warning,782.9,,H2,weekly,1
+alan456_589,a589-0428,D1,1,4,Critical,6301.0,,H2,daily / continuous,1
+alan456_589,a589-0429,D1,1,4,Critical,208.0,,C2H2,daily / continuous,1
+alan456_589,a589-0430,D1,1,4,Critical,348.0,,C2H2,daily / continuous,1
+alan456_589,a589-0431,D1,1,4,Critical,926.2,,C2H2,daily / continuous,1
+alan456_589,a589-0432,D1,1,4,Critical,715.0,,C2H2,daily / continuous,1
+alan456_589,a589-0433,D1,1,4,Critical,595.1,,C2H2,daily / continuous,1
+alan456_589,a589-0434,D1,1,4,Critical,494.46,,C2H2,daily / continuous,1
+alan456_589,a589-0435,D1,1,3,Warning,191.0,,C2H2,weekly,1
+alan456_589,a589-0436,D1,1,4,Critical,2345.0,,C2H2,daily / continuous,1
+alan456_589,a589-0437,D1,1,3,Warning,188.3,,C2H2,weekly,1
+alan456_589,a589-0438,D1,1,4,Critical,951.0,,C2H2,daily / continuous,1
+alan456_589,a589-0439,D1,1,4,Critical,2401.0,,C2H2,daily / continuous,1
+alan456_589,a589-0440,D1,1,4,Critical,1017.0,,C2H2,daily / continuous,1
+alan456_589,a589-0441,D1,1,3,Warning,131.0,,C2H2,weekly,1
+alan456_589,a589-0442,D1,1,4,Critical,700.0,,C2H2,daily / continuous,1
+alan456_589,a589-0443,D1,1,4,Critical,127.44,,C2H2,daily / continuous,1
+alan456_589,a589-0444,D1,1,4,Critical,155.0,,C2H2,daily / continuous,1
+alan456_589,a589-0445,D1,1,4,Critical,6827.0,,H2,daily / continuous,1
+alan456_589,a589-0446,D2,1,4,Critical,5462.0,,C2H2,daily / continuous,1
+alan456_589,a589-0447,D2,1,4,Critical,8314.0,,CH4,daily / continuous,1
+alan456_589,a589-0448,D2,1,4,Critical,99.85,,C2H2,daily / continuous,1
+alan456_589,a589-0449,D2,1,4,Critical,681.0,,C2H2,daily / continuous,1
+alan456_589,a589-0450,D2,1,4,Critical,199.0,,C2H2,daily / continuous,1
+alan456_589,a589-0451,D2,1,4,Critical,679.0,,C2H2,daily / continuous,1
+alan456_589,a589-0452,D2,1,4,Critical,1100.0,,C2H2,daily / continuous,1
+alan456_589,a589-0453,D2,1,4,Critical,9765.0,,H2,daily / continuous,1
+alan456_589,a589-0454,D2,1,4,Critical,959.3,,C2H2,daily / continuous,1
+alan456_589,a589-0455,D2,1,4,Critical,2097.29,,C2H2,daily / continuous,1
+alan456_589,a589-0456,D2,1,4,Critical,311.0,,C2H2,daily / continuous,1
+alan456_589,a589-0457,D2,1,4,Critical,1027.0,,C2H2,daily / continuous,1
+alan456_589,a589-0458,D2,1,4,Critical,404.0,,C2H2,daily / continuous,1
+alan456_589,a589-0459,D2,1,3,Warning,98.4,,C2H2,weekly,1
+alan456_589,a589-0460,D2,1,4,Critical,587.0,,C2H2,daily / continuous,1
+alan456_589,a589-0461,D2,1,4,Critical,9468.0,,H2,daily / continuous,1
+alan456_589,a589-0462,D2,1,4,Critical,164.0,,C2H2,daily / continuous,1
+alan456_589,a589-0463,D2,1,4,Critical,1112.2,,C2H2,daily / continuous,1
+alan456_589,a589-0464,D2,1,4,Critical,474.0,,C2H2,daily / continuous,1
+alan456_589,a589-0465,D2,1,4,Critical,22690.0,,H2,daily / continuous,1
+alan456_589,a589-0466,D2,1,3,Warning,50.0,,C2H2,weekly,1
+alan456_589,a589-0467,D2,1,4,Critical,1247.0,,C2H4,daily / continuous,1
+alan456_589,a589-0468,D2,1,4,Critical,354.0,,C2H6,daily / continuous,1
+alan456_589,a589-0469,D2,1,3,Warning,213.4,,C2H6,weekly,1
+alan456_589,a589-0470,D2,1,4,Critical,2561.0,,C2H2,daily / continuous,1
+alan456_589,a589-0471,D2,1,4,Critical,234.8,,C2H2,daily / continuous,1
+alan456_589,a589-0472,D2,1,4,Critical,286.9,,C2H2,daily / continuous,1
+alan456_589,a589-0473,D2,1,4,Critical,191.0,,C2H2,daily / continuous,1
+alan456_589,a589-0474,D2,1,4,Critical,289.63,,C2H2,daily / continuous,1
+alan456_589,a589-0475,D2,1,4,Critical,8383.0,,H2,daily / continuous,1
+alan456_589,a589-0476,D2,1,4,Critical,120850.0,,H2,daily / continuous,1
+alan456_589,a589-0477,D2,1,4,Critical,34805.0,,H2,daily / continuous,1
+alan456_589,a589-0478,D2,1,4,Critical,2041.0,,C2H2,daily / continuous,1
+alan456_589,a589-0479,D2,1,3,Warning,199.0,,C2H2,weekly,1
+alan456_589,a589-0480,D2,1,4,Critical,157.0,,C2H2,daily / continuous,1
+alan456_589,a589-0481,D2,1,4,Critical,311.0,,C2H2,daily / continuous,1
+alan456_589,a589-0482,D2,1,4,Critical,8680.0,,H2,daily / continuous,1
+alan456_589,a589-0483,D2,1,4,Critical,1696.0,,C2H2,daily / continuous,1
+alan456_589,a589-0484,D2,1,4,Critical,240.0,,C2H2,daily / continuous,1
+alan456_589,a589-0485,D2,1,4,Critical,200.6,,C2H2,daily / continuous,1
+alan456_589,a589-0486,D2,1,4,Critical,1083.0,,C2H2,daily / continuous,1
+alan456_589,a589-0487,D2,1,4,Critical,78.0,,C2H2,daily / continuous,1
+alan456_589,a589-0488,D2,1,3,Warning,123.4,,C2H2,weekly,1
+alan456_589,a589-0489,T1,1,4,Critical,422.0,,C2H6,daily / continuous,1
+alan456_589,a589-0490,T1,1,2,Investigate,148.0,,C2H6,monthly,1
+alan456_589,a589-0491,T1,1,1,Normal,80.1,,,annual,0
+alan456_589,a589-0492,T1,1,2,Investigate,119.0,,C2H6,monthly,1
+alan456_589,a589-0493,T1,1,3,Warning,160.0,,C2H6,weekly,1
+alan456_589,a589-0494,T1,1,2,Investigate,804.0,,H2,monthly,1
+alan456_589,a589-0495,T1,1,4,Critical,278.0,,C2H6,daily / continuous,1
+alan456_589,a589-0496,T1,1,3,Warning,160.0,,C2H6,weekly,1
+alan456_589,a589-0497,T1,1,4,Critical,596.0,,C2H6,daily / continuous,1
+alan456_589,a589-0498,T1,1,2,Investigate,213.5,,C2H2,monthly,1
+alan456_589,a589-0499,T1,1,3,Warning,188.0,,C2H6,weekly,1
+alan456_589,a589-0500,T1,1,1,Normal,82.5,,,annual,0
+alan456_589,a589-0501,T1,1,2,Investigate,230.0,,CH4,monthly,1
+alan456_589,a589-0502,T1,1,2,Investigate,175.0,,CH4,monthly,1
+alan456_589,a589-0503,T1,1,2,Investigate,202.0,,C2H6,monthly,1
+alan456_589,a589-0504,T1,1,3,Warning,223.0,,C2H6,weekly,1
+alan456_589,a589-0505,T1,1,2,Investigate,134.4,,C2H6,monthly,1
+alan456_589,a589-0506,T1,1,1,Normal,99.5,,,annual,0
+alan456_589,a589-0507,T1,1,1,Normal,99.0,,,annual,0
+alan456_589,a589-0508,T1,1,2,Investigate,181.4,,C2H4,monthly,1
+alan456_589,a589-0509,T1,1,3,Warning,240.0,,C2H6,weekly,1
+alan456_589,a589-0510,T1,1,1,Normal,135.0,,,annual,0
+alan456_589,a589-0511,T1,1,3,Warning,198.0,,C2H6,weekly,1
+alan456_589,a589-0512,T1,1,2,Investigate,244.4,,C2H4,monthly,1
+alan456_589,a589-0513,T1,1,4,Critical,393.0,,C2H6,daily / continuous,1
+alan456_589,a589-0514,T1,1,1,Normal,95.0,,,annual,0
+alan456_589,a589-0515,T1,1,2,Investigate,279.0,,CH4,monthly,1
+alan456_589,a589-0516,T1,1,3,Warning,392.0,,C2H4,weekly,1
+alan456_589,a589-0517,T1,1,2,Investigate,152.0,,C2H6,monthly,1
+alan456_589,a589-0518,T1,1,4,Critical,360.0,,C2H6,daily / continuous,1
+alan456_589,a589-0519,T1,1,2,Investigate,181.0,,C2H6,monthly,1
+alan456_589,a589-0520,T1,1,4,Critical,393.0,,C2H6,daily / continuous,1
+alan456_589,a589-0521,T1,1,4,Critical,525.0,,C2H6,daily / continuous,1
+alan456_589,a589-0522,T1,1,2,Investigate,276.5,,H2,monthly,1
+alan456_589,a589-0523,T1,1,3,Warning,292.0,,C2H6,weekly,1
+alan456_589,a589-0524,T1,1,2,Investigate,186.0,,C2H6,monthly,1
+alan456_589,a589-0525,T1,1,3,Warning,199.0,,C2H6,weekly,1
+alan456_589,a589-0526,T2,1,2,Investigate,205.89,,C2H4,monthly,1
+alan456_589,a589-0527,T2,1,2,Investigate,155.0,,C2H4,monthly,1
+alan456_589,a589-0528,T2,1,3,Warning,847.3,,CH4,weekly,1
+alan456_589,a589-0529,T2,1,4,Critical,1154.0,,C2H4,daily / continuous,1
+alan456_589,a589-0530,T2,1,1,Normal,4.3,,,annual,0
+alan456_589,a589-0531,T2,1,4,Critical,1498.0,,C2H4,daily / continuous,1
+alan456_589,a589-0532,T2,1,2,Investigate,197.0,,C2H4,monthly,1
+alan456_589,a589-0533,T2,1,4,Critical,155660.0,,H2,daily / continuous,1
+alan456_589,a589-0534,T2,1,4,Critical,1440.0,,C2H4,daily / continuous,1
+alan456_589,a589-0535,T2,1,4,Critical,3419.0,,CH4,daily / continuous,1
+alan456_589,a589-0536,T2,1,2,Investigate,330.0,,H2,monthly,1
+alan456_589,a589-0537,T2,1,3,Warning,458.0,,C2H4,weekly,1
+alan456_589,a589-0538,T2,1,4,Critical,2879.0,,CH4,daily / continuous,1
+alan456_589,a589-0539,T2,1,3,Warning,286.0,,C2H4,weekly,1
+alan456_589,a589-0540,T2,1,1,Normal,126.68,,,annual,0
+alan456_589,a589-0541,T2,1,4,Critical,745.3,,C2H4,daily / continuous,1
+alan456_589,a589-0542,T2,1,4,Critical,693.0,,C2H4,daily / continuous,1
+alan456_589,a589-0543,T2,1,3,Warning,496.76,,C2H4,weekly,1
+alan456_589,a589-0544,T2,1,2,Investigate,209.0,,C2H4,monthly,1
+alan456_589,a589-0545,T2,1,2,Investigate,1008.0,,H2,monthly,1
+alan456_589,a589-0546,T2,1,2,Investigate,222.2,,C2H4,monthly,1
+alan456_589,a589-0547,T2,1,4,Critical,1430.95,,C2H4,daily / continuous,1
+alan456_589,a589-0548,T2,1,2,Investigate,419.1,,H2,monthly,1
+alan456_589,a589-0549,T3,1,4,Critical,1527.8,,C2H2,daily / continuous,1
+alan456_589,a589-0550,T3,1,2,Investigate,123.0,,C2H2,monthly,1
+alan456_589,a589-0551,T3,1,4,Critical,3314.0,,CH4,daily / continuous,1
+alan456_589,a589-0552,T3,1,2,Investigate,135.0,,C2H4,monthly,1
+alan456_589,a589-0553,T3,1,3,Warning,227.0,,C2H4,weekly,1
+alan456_589,a589-0554,T3,1,2,Investigate,70.0,,C2H4,monthly,1
+alan456_589,a589-0555,T3,1,4,Critical,1009.0,,C2H4,daily / continuous,1
+alan456_589,a589-0556,T3,1,4,Critical,820.0,,C2H4,daily / continuous,1
+alan456_589,a589-0557,T3,1,3,Warning,153.0,,C2H4,weekly,1
+alan456_589,a589-0558,T3,1,4,Critical,821.0,,C2H4,daily / continuous,1
+alan456_589,a589-0559,T3,1,4,Critical,10740.0,,CH4,daily / continuous,1
+alan456_589,a589-0560,T3,1,4,Critical,688.0,,C2H4,daily / continuous,1
+alan456_589,a589-0561,T3,1,4,Critical,362.0,,C2H4,daily / continuous,1
+alan456_589,a589-0562,T3,1,4,Critical,1066.2,,C2H4,daily / continuous,1
+alan456_589,a589-0563,T3,1,2,Investigate,102.0,,C2H4,monthly,1
+alan456_589,a589-0564,T3,1,4,Critical,31296.0,,H2,daily / continuous,1
+alan456_589,a589-0565,T3,1,4,Critical,1373.0,,C2H4,daily / continuous,1
+alan456_589,a589-0566,T3,1,4,Critical,567.0,,C2H4,daily / continuous,1
+alan456_589,a589-0567,T3,1,2,Investigate,100.0,,C2H2,monthly,1
+alan456_589,a589-0568,T3,1,3,Warning,252.0,,C2H2,weekly,1
+alan456_589,a589-0569,T3,1,4,Critical,846.0,,C2H4,daily / continuous,1
+alan456_589,a589-0570,T3,1,3,Warning,231.0,,C2H4,weekly,1
+alan456_589,a589-0571,T3,1,4,Critical,2985.0,,CH4,daily / continuous,1
+alan456_589,a589-0572,T3,1,4,Critical,2189.0,,C2H4,daily / continuous,1
+alan456_589,a589-0573,T3,1,4,Critical,1091.0,,C2H4,daily / continuous,1
+alan456_589,a589-0574,T3,1,4,Critical,11538.0,,CH4,daily / continuous,1
+alan456_589,a589-0575,T3,1,4,Critical,557.0,,C2H4,daily / continuous,1
+alan456_589,a589-0576,T3,1,2,Investigate,99.97,,C2H2,monthly,1
+alan456_589,a589-0577,T3,1,4,Critical,19140.0,,H2,daily / continuous,1
+alan456_589,a589-0578,T3,1,2,Investigate,182.0,,C2H4,monthly,1
+alan456_589,a589-0579,T3,1,2,Investigate,62.5,,C2H2,monthly,1
+alan456_589,a589-0580,T3,1,4,Critical,3212.0,,CH4,daily / continuous,1
+alan456_589,a589-0581,T3,1,4,Critical,515.0,,C2H4,daily / continuous,1
+alan456_589,a589-0582,T3,1,4,Critical,19813.0,,H2,daily / continuous,1
+alan456_589,a589-0583,T3,1,3,Warning,288.0,,C2H4,weekly,1
+alan456_589,a589-0584,T3,1,4,Critical,603.0,,C2H4,daily / continuous,1
+alan456_589,a589-0585,T3,1,4,Critical,10324.0,,CH4,daily / continuous,1
+alan456_589,a589-0586,T3,1,4,Critical,1453.91,,C2H4,daily / continuous,1
+alan456_589,a589-0587,T3,1,4,Critical,621.0,,C2H4,daily / continuous,1
+alan456_589,a589-0588,T3,1,4,Critical,20263.0,,H2,daily / continuous,1

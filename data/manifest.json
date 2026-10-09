@@ -1,0 +1,78 @@
+{
+  "_comment": [
+    "Dataset provenance manifest.",
+    "",
+    "NONE of these files are redistributed with this repository. Every candidate",
+    "dataset repository carries NO open-source licence, so committing the raw data",
+    "would be a licence violation. scripts/fetch_datasets.py downloads them into",
+    ".cache/ (gitignored) and verifies the SHA-256 recorded here, so results stay",
+    "reproducible without redistributing anyone's data.",
+    "",
+    "Use of this data is limited to non-commercial research and education. Cite the",
+    "original sources, not this repository."
+  ],
+  "datasets": [
+    {
+      "id": "alan456_589",
+      "name": "transformer-fault-dataset",
+      "samples": 589,
+      "license": "none declared - research/education use only",
+      "repository": "https://github.com/alan-456/transformer-fault-dataset",
+      "files": [
+        {
+          "path": "dataset_(589).xlsx",
+          "cache_as": "a589.xlsx",
+          "bytes": 30957,
+          "sha256": "a51cd81e424a497467642ff3e2769666f7f21f759778ad52bbd0a6b525e4a897",
+          "url": "https://raw.githubusercontent.com/alan-456/transformer-fault-dataset/main/dataset_(589).xlsx"
+        }
+      ],
+      "columns": ["H2", "CH4", "C2H6", "C2H4", "C2H2", "故障类型"],
+      "units": "ppm",
+      "label_vocabulary": ["局部放电", "低能放电", "高能放电", "低温过热", "中温过热", "高温过热"],
+      "notes": [
+        "211 of 589 rows carry C2H2 = 1e-4, a sentinel for below-detection-limit.",
+        "The reference paper reports 7 exact-duplicate groups (14 rows) and 5",
+        "cross-label exact collisions. Deduplication is left to the caller."
+      ]
+    },
+    {
+      "id": "cliango_202",
+      "name": "DGA",
+      "samples": 202,
+      "license": "none declared - research/education use only",
+      "repository": "https://github.com/Cliango/DGA",
+      "files": [
+        {
+          "path": "数据.xlsx",
+          "cache_as": "cliango.xlsx",
+          "bytes": 18783,
+          "sha256": "e25b708621f9310a944f89ff671486d8aba2516d42047ef6b10fa65a8d7c58a4",
+          "url": "https://raw.githubusercontent.com/Cliango/DGA/main/%E6%95%B0%E6%8D%AE.xlsx"
+        }
+      ],
+      "columns": ["组号", "氢气H2", "甲烷CH4", "乙烷C2H6", "乙烯C2H4", "乙炔C2H2", "故障类型"],
+      "units": "ppm",
+      "label_vocabulary": ["正常", "局部放电", "低能放电", "高能放电", "中低温过热", "高温过热"],
+      "notes": [
+        "Carries a duplicated header row; the header is on row index 1.",
+        "The only candidate dataset with a Normal class, which makes it the one",
+        "that exposes methods unable to report a healthy unit.",
+        "中低温过热 merges two IEC thermal tiers; mapped to T1 (lossy)."
+      ]
+    }
+  ],
+  "not_included": [
+    {
+      "id": "ieee_dataport_27vy-h479",
+      "name": "DGA dataset (train 584 / unseen test 70 / IEC TC10 benchmark 49)",
+      "doi": "10.21227/27vy-h479",
+      "reason": "Requires a free IEEE DataPort account; cannot be scripted anonymously."
+    },
+    {
+      "id": "iec_tc10",
+      "name": "IEC TC 10 database",
+      "reason": "Distributed by IEC; obtain from the standard body. A 49-row subset is republished in the IEEE DataPort entry above."
+    }
+  ]
+}

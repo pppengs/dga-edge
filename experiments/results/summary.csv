@@ -1,0 +1,13 @@
+dataset,subset,method,n_total,n_decided,decision_rate_pct,acc_of_decided_pct,acc_of_all_pct,macro_f1,recall_D1,recall_D2,recall_PD,recall_T1,recall_T2,recall_T3,recall_Normal
+alan456_589,all,iec_three_ratio,589,401,68.1,76.3,52.0,0.7462,0.355,0.925,0.689,0.663,0.741,0.921,
+alan456_589,all,iec_ratio,589,377,64.0,72.9,46.7,0.7251,0.878,0.253,0.739,0.9,0.962,0.885,
+alan456_589,all,rogers_ratio,589,295,50.1,75.6,37.9,0.6269,0.0,1.0,0.682,0.214,0.776,0.92,
+alan456_589,all,duval_triangle1,589,589,100.0,62.8,62.8,0.6131,0.714,0.631,0.378,0.495,0.5,0.942,
+cliango_202,all,iec_three_ratio,202,168,83.2,64.3,53.5,0.6596,0.222,0.714,0.958,0.379,,0.964,0.656
+cliango_202,all,iec_ratio,202,107,53.0,50.5,26.7,0.5054,0.769,0.241,0.889,0.32,,0.778,0.0
+cliango_202,all,rogers_ratio,202,144,71.3,65.3,46.5,0.5886,0.0,1.0,0.957,0.182,,0.964,0.677
+cliango_202,all,duval_triangle1,202,202,100.0,34.7,34.7,0.315,0.229,0.556,0.111,0.133,,0.968,0.0
+cliango_202,faults_only,iec_three_ratio,168,136,81.0,64.0,51.8,0.6742,0.222,0.714,0.958,0.379,,0.964,
+cliango_202,faults_only,iec_ratio,168,103,61.3,52.4,32.1,0.6157,0.769,0.241,0.889,0.32,,0.778,
+cliango_202,faults_only,rogers_ratio,168,113,67.3,64.6,43.5,0.5868,0.0,1.0,0.957,0.182,,0.964,
+cliango_202,faults_only,duval_triangle1,168,168,100.0,41.7,41.7,0.3939,0.229,0.556,0.111,0.133,,0.968,

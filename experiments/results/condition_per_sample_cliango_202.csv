@@ -1,0 +1,203 @@
+dataset,sample_id,truth,is_fault,condition,label,tdcg,tdcg_condition,limiting_gas,sampling_interval,alarm
+cliango_202,cliango-0000,T3,1,4,Critical,651.83,,C2H4,daily / continuous,1
+cliango_202,cliango-0001,Normal,0,1,Normal,35.67,,,annual,0
+cliango_202,cliango-0002,Normal,0,1,Normal,49.44,,,annual,0
+cliango_202,cliango-0003,D2,1,4,Critical,3601.46,,C2H2,daily / continuous,1
+cliango_202,cliango-0004,T1,1,4,Critical,1914.81,,C2H4,daily / continuous,1
+cliango_202,cliango-0005,Normal,0,1,Normal,18.96,,,annual,0
+cliango_202,cliango-0006,D1,1,2,Investigate,395.7,,H2,monthly,1
+cliango_202,cliango-0007,D2,1,4,Critical,232.0,,C2H2,daily / continuous,1
+cliango_202,cliango-0008,D1,1,3,Warning,263.0,,C2H2,weekly,1
+cliango_202,cliango-0009,PD,1,2,Investigate,561.3,,H2,monthly,1
+cliango_202,cliango-0010,T3,1,2,Investigate,329.7,,C2H2,monthly,1
+cliango_202,cliango-0011,T3,1,4,Critical,1361.0,,C2H4,daily / continuous,1
+cliango_202,cliango-0012,D2,1,4,Critical,959.61,,C2H2,daily / continuous,1
+cliango_202,cliango-0013,D1,1,3,Warning,159.1,,C2H2,weekly,1
+cliango_202,cliango-0014,T1,1,4,Critical,859.9,,C2H4,daily / continuous,1
+cliango_202,cliango-0015,Normal,0,1,Normal,7.5,,,annual,0
+cliango_202,cliango-0016,Normal,0,1,Normal,31.9,,,annual,0
+cliango_202,cliango-0017,Normal,0,4,Critical,362.96,,C2H4,daily / continuous,1
+cliango_202,cliango-0018,Normal,0,1,Normal,95.5,,,annual,0
+cliango_202,cliango-0019,T3,1,4,Critical,3427.4,,C2H4,daily / continuous,1
+cliango_202,cliango-0020,D1,1,3,Warning,68.7,,C2H2,weekly,1
+cliango_202,cliango-0021,T3,1,3,Warning,405.85,,C2H4,weekly,1
+cliango_202,cliango-0022,D2,1,4,Critical,674.65,,C2H2,daily / continuous,1
+cliango_202,cliango-0023,D1,1,2,Investigate,83.6,,C2H2,monthly,1
+cliango_202,cliango-0024,D2,1,4,Critical,16890.0,,H2,daily / continuous,1
+cliango_202,cliango-0025,T1,1,3,Warning,608.3,,C2H4,weekly,1
+cliango_202,cliango-0026,T3,1,4,Critical,384.2,,C2H4,daily / continuous,1
+cliango_202,cliango-0027,T1,1,4,Critical,1240.9,,C2H4,daily / continuous,1
+cliango_202,cliango-0028,D1,1,3,Warning,271.0,,C2H2,weekly,1
+cliango_202,cliango-0029,D1,1,4,Critical,17890.0,,H2,daily / continuous,1
+cliango_202,cliango-0030,PD,1,2,Investigate,553.5,,H2,monthly,1
+cliango_202,cliango-0031,T3,1,4,Critical,1922.0,,C2H4,daily / continuous,1
+cliango_202,cliango-0032,T1,1,2,Investigate,214.32,,H2,monthly,1
+cliango_202,cliango-0033,T1,1,2,Investigate,214.33,,H2,monthly,1
+cliango_202,cliango-0034,D1,1,2,Investigate,129.7,,H2,monthly,1
+cliango_202,cliango-0035,D2,1,2,Investigate,262.0,,H2,monthly,1
+cliango_202,cliango-0036,D2,1,4,Critical,510.1,,C2H2,daily / continuous,1
+cliango_202,cliango-0037,D1,1,2,Investigate,70.3,,C2H2,monthly,1
+cliango_202,cliango-0038,T3,1,4,Critical,360.6,,C2H4,daily / continuous,1
+cliango_202,cliango-0039,PD,1,2,Investigate,358.28,,H2,monthly,1
+cliango_202,cliango-0040,Normal,0,1,Normal,27.77,,,annual,0
+cliango_202,cliango-0041,D2,1,3,Warning,182.7,,C2H2,weekly,1
+cliango_202,cliango-0042,D2,1,4,Critical,335.8,,C2H2,daily / continuous,1
+cliango_202,cliango-0043,D1,1,4,Critical,333.6,,C2H2,daily / continuous,1
+cliango_202,cliango-0044,T3,1,4,Critical,1902.2,,C2H4,daily / continuous,1
+cliango_202,cliango-0045,PD,1,2,Investigate,603.5,,H2,monthly,1
+cliango_202,cliango-0046,T1,1,1,Normal,86.0,,,annual,0
+cliango_202,cliango-0047,T3,1,3,Warning,328.4,,C2H4,weekly,1
+cliango_202,cliango-0048,PD,1,4,Critical,2178.6,,H2,daily / continuous,1
+cliango_202,cliango-0049,D2,1,4,Critical,248.5,,C2H2,daily / continuous,1
+cliango_202,cliango-0050,T3,1,3,Warning,328.3,,C2H4,weekly,1
+cliango_202,cliango-0051,T1,1,1,Normal,211.6,,,annual,0
+cliango_202,cliango-0052,D2,1,4,Critical,408.9,,C2H2,daily / continuous,1
+cliango_202,cliango-0053,D2,1,3,Warning,218.5,,C2H2,weekly,1
+cliango_202,cliango-0054,T1,1,2,Investigate,419.0,,H2,monthly,1
+cliango_202,cliango-0055,D2,1,3,Warning,138.11,,C2H2,weekly,1
+cliango_202,cliango-0056,Normal,0,1,Normal,81.32,,,annual,0
+cliango_202,cliango-0057,D2,1,4,Critical,193.0,,C2H2,daily / continuous,1
+cliango_202,cliango-0058,Normal,0,1,Normal,28.7,,,annual,0
+cliango_202,cliango-0059,Normal,0,1,Normal,52.69,,,annual,0
+cliango_202,cliango-0060,T3,1,2,Investigate,175.1,,C2H2,monthly,1
+cliango_202,cliango-0061,D2,1,2,Investigate,262.0,,H2,monthly,1
+cliango_202,cliango-0062,D1,1,2,Investigate,157.71,,H2,monthly,1
+cliango_202,cliango-0063,D2,1,3,Warning,888.15,,C2H2,weekly,1
+cliango_202,cliango-0064,T1,1,1,Normal,40.92,,,annual,0
+cliango_202,cliango-0065,Normal,0,1,Normal,22.66,,,annual,0
+cliango_202,cliango-0066,Normal,0,1,Normal,99.86,,,annual,0
+cliango_202,cliango-0067,T1,1,4,Critical,1555.88,,C2H4,daily / continuous,1
+cliango_202,cliango-0068,T3,1,3,Warning,426.17,,C2H4,weekly,1
+cliango_202,cliango-0069,T1,1,4,Critical,4036.6,,CH4,daily / continuous,1
+cliango_202,cliango-0070,D2,1,4,Critical,957.1,,C2H2,daily / continuous,1
+cliango_202,cliango-0071,T3,1,4,Critical,484.3,,C2H4,daily / continuous,1
+cliango_202,cliango-0072,T3,1,4,Critical,2826.0,,CH4,daily / continuous,1
+cliango_202,cliango-0073,D1,1,4,Critical,636.3,,C2H2,daily / continuous,1
+cliango_202,cliango-0074,Normal,0,1,Normal,70.5,,,annual,0
+cliango_202,cliango-0075,Normal,0,2,Investigate,37.1,,C2H2,monthly,1
+cliango_202,cliango-0076,PD,1,4,Critical,3651.0,,H2,daily / continuous,1
+cliango_202,cliango-0077,T3,1,4,Critical,1369.8,,C2H4,daily / continuous,1
+cliango_202,cliango-0078,Normal,0,1,Normal,11.42,,,annual,0
+cliango_202,cliango-0079,T3,1,4,Critical,8565.1,,C2H2,daily / continuous,1
+cliango_202,cliango-0080,T1,1,2,Investigate,212.23,,C2H4,monthly,1
+cliango_202,cliango-0081,D1,1,4,Critical,233.14,,C2H2,daily / continuous,1
+cliango_202,cliango-0082,PD,1,2,Investigate,729.0,,H2,monthly,1
+cliango_202,cliango-0083,T1,1,3,Warning,496.16,,C2H4,weekly,1
+cliango_202,cliango-0084,Normal,0,1,Normal,100.0,,,annual,0
+cliango_202,cliango-0085,D2,1,4,Critical,241.0,,C2H2,daily / continuous,1
+cliango_202,cliango-0086,Normal,0,1,Normal,19.26,,,annual,0
+cliango_202,cliango-0087,T3,1,4,Critical,527.3,,C2H4,daily / continuous,1
+cliango_202,cliango-0088,T3,1,3,Warning,291.29,,C2H4,weekly,1
+cliango_202,cliango-0089,PD,1,3,Warning,1551.0,,H2,weekly,1
+cliango_202,cliango-0090,D2,1,4,Critical,3110.7,,C2H2,daily / continuous,1
+cliango_202,cliango-0091,D1,1,2,Investigate,86.7,,C2H2,monthly,1
+cliango_202,cliango-0092,T3,1,4,Critical,3290.31,,C2H4,daily / continuous,1
+cliango_202,cliango-0093,D1,1,3,Warning,174.7,,C2H2,weekly,1
+cliango_202,cliango-0094,D2,1,4,Critical,191.296,,C2H2,daily / continuous,1
+cliango_202,cliango-0095,T3,1,4,Critical,723.0,,C2H4,daily / continuous,1
+cliango_202,cliango-0096,T1,1,3,Warning,440.32,,C2H4,weekly,1
+cliango_202,cliango-0097,D1,1,2,Investigate,62.9,,C2H2,monthly,1
+cliango_202,cliango-0098,PD,1,4,Critical,2189.6,,H2,daily / continuous,1
+cliango_202,cliango-0099,Normal,0,1,Normal,98.32,,,annual,0
+cliango_202,cliango-0100,D1,1,3,Warning,270.12,,C2H2,weekly,1
+cliango_202,cliango-0101,T3,1,3,Warning,362.3,,C2H4,weekly,1
+cliango_202,cliango-0102,D1,1,4,Critical,199.0,,C2H2,daily / continuous,1
+cliango_202,cliango-0103,Normal,0,1,Normal,99.33,,,annual,0
+cliango_202,cliango-0104,T1,1,4,Critical,1430.85,,C2H4,daily / continuous,1
+cliango_202,cliango-0105,D2,1,3,Warning,220.0,,C2H2,weekly,1
+cliango_202,cliango-0106,D1,1,3,Warning,124.1,,C2H2,weekly,1
+cliango_202,cliango-0107,PD,1,2,Investigate,127.5,,H2,monthly,1
+cliango_202,cliango-0108,T1,1,2,Investigate,512.0,,H2,monthly,1
+cliango_202,cliango-0109,T1,1,4,Critical,1196.7,,C2H4,daily / continuous,1
+cliango_202,cliango-0110,D2,1,2,Investigate,31.744,,C2H2,monthly,1
+cliango_202,cliango-0111,D2,1,2,Investigate,18.51,,C2H2,monthly,1
+cliango_202,cliango-0112,T3,1,3,Warning,782.4,,C2H4,weekly,1
+cliango_202,cliango-0113,PD,1,2,Investigate,569.8,,H2,monthly,1
+cliango_202,cliango-0114,Normal,0,1,Normal,99.35,,,annual,0
+cliango_202,cliango-0115,PD,1,2,Investigate,690.6,,H2,monthly,1
+cliango_202,cliango-0116,D2,1,3,Warning,146.3,,C2H2,weekly,1
+cliango_202,cliango-0117,D1,1,3,Warning,193.0,,C2H2,weekly,1
+cliango_202,cliango-0118,D1,1,2,Investigate,33.9,,C2H2,monthly,1
+cliango_202,cliango-0119,D1,1,4,Critical,50481.0,,H2,daily / continuous,1
+cliango_202,cliango-0120,Normal,0,1,Normal,5.1,,,annual,0
+cliango_202,cliango-0121,D1,1,4,Critical,1278.6,,C2H2,daily / continuous,1
+cliango_202,cliango-0122,D2,1,4,Critical,1033.2,,C2H2,daily / continuous,1
+cliango_202,cliango-0123,Normal,0,1,Normal,11.1,,,annual,0
+cliango_202,cliango-0124,D1,1,4,Critical,1044.0,,C2H2,daily / continuous,1
+cliango_202,cliango-0125,PD,1,1,Normal,17.16,,,annual,0
+cliango_202,cliango-0126,T1,1,2,Investigate,279.8,,C2H2,monthly,1
+cliango_202,cliango-0127,D1,1,3,Warning,78.3,,C2H2,weekly,1
+cliango_202,cliango-0128,D2,1,4,Critical,236.5,,C2H2,daily / continuous,1
+cliango_202,cliango-0129,Normal,0,3,Warning,339.14,,C2H4,weekly,1
+cliango_202,cliango-0130,D2,1,2,Investigate,36.62,,C2H2,monthly,1
+cliango_202,cliango-0131,D2,1,4,Critical,153.6,,C2H2,daily / continuous,1
+cliango_202,cliango-0132,D2,1,4,Critical,623.0,,C2H2,daily / continuous,1
+cliango_202,cliango-0133,PD,1,3,Warning,255.0,,C2H2,weekly,1
+cliango_202,cliango-0134,D1,1,4,Critical,851.0,,C2H2,daily / continuous,1
+cliango_202,cliango-0135,T1,1,1,Normal,231.0,,,annual,0
+cliango_202,cliango-0136,D2,1,4,Critical,4215.0,,C2H2,daily / continuous,1
+cliango_202,cliango-0137,T3,1,2,Investigate,168.72,,C2H4,monthly,1
+cliango_202,cliango-0138,PD,1,3,Warning,1123.0,,H2,weekly,1
+cliango_202,cliango-0139,D2,1,4,Critical,3452.5,,H2,daily / continuous,1
+cliango_202,cliango-0140,D1,1,4,Critical,543.8,,C2H2,daily / continuous,1
+cliango_202,cliango-0141,D1,1,2,Investigate,76.4,,C2H2,monthly,1
+cliango_202,cliango-0142,PD,1,1,Normal,24.4,,,annual,0
+cliango_202,cliango-0143,D2,1,3,Warning,231.2,,C2H2,weekly,1
+cliango_202,cliango-0144,PD,1,2,Investigate,254.57,,H2,monthly,1
+cliango_202,cliango-0145,T1,1,4,Critical,899.0,,C2H6,daily / continuous,1
+cliango_202,cliango-0146,T1,1,4,Critical,768.0,,C2H6,daily / continuous,1
+cliango_202,cliango-0147,D1,1,3,Warning,93.46,,C2H2,weekly,1
+cliango_202,cliango-0148,Normal,0,1,Normal,21.4,,,annual,0
+cliango_202,cliango-0149,PD,1,3,Warning,1086.7,,H2,weekly,1
+cliango_202,cliango-0150,D2,1,4,Critical,710.9,,C2H4,daily / continuous,1
+cliango_202,cliango-0151,Normal,0,1,Normal,35.7,,,annual,0
+cliango_202,cliango-0152,T1,1,2,Investigate,273.21,,C2H4,monthly,1
+cliango_202,cliango-0153,D2,1,2,Investigate,94.59,,C2H2,monthly,1
+cliango_202,cliango-0154,D1,1,4,Critical,387.5,,C2H2,daily / continuous,1
+cliango_202,cliango-0155,D2,1,4,Critical,623.0,,C2H2,daily / continuous,1
+cliango_202,cliango-0156,PD,1,4,Critical,3651.0,,H2,daily / continuous,1
+cliango_202,cliango-0157,T3,1,4,Critical,8061.0,,CH4,daily / continuous,1
+cliango_202,cliango-0158,T1,1,2,Investigate,272.1,,CH4,monthly,1
+cliango_202,cliango-0159,D2,1,4,Critical,1209.3,,C2H2,daily / continuous,1
+cliango_202,cliango-0160,PD,1,3,Warning,896.4,,H2,weekly,1
+cliango_202,cliango-0161,Normal,0,1,Normal,99.83,,,annual,0
+cliango_202,cliango-0162,Normal,0,1,Normal,31.2,,,annual,0
+cliango_202,cliango-0163,T1,1,2,Investigate,375.0,,H2,monthly,1
+cliango_202,cliango-0164,D2,1,4,Critical,319.0,,C2H2,daily / continuous,1
+cliango_202,cliango-0165,D1,1,2,Investigate,75.4,,C2H2,monthly,1
+cliango_202,cliango-0166,T1,1,2,Investigate,228.85,,C2H4,monthly,1
+cliango_202,cliango-0167,Normal,0,1,Normal,98.32,,,annual,0
+cliango_202,cliango-0168,T1,1,1,Normal,161.3,,,annual,0
+cliango_202,cliango-0169,T3,1,4,Critical,15001.62,,CH4,daily / continuous,1
+cliango_202,cliango-0170,D1,1,2,Investigate,140.9,,C2H2,monthly,1
+cliango_202,cliango-0171,T1,1,2,Investigate,152.6,,C2H2,monthly,1
+cliango_202,cliango-0172,PD,1,2,Investigate,181.846,,H2,monthly,1
+cliango_202,cliango-0173,D1,1,2,Investigate,36.52,,C2H2,monthly,1
+cliango_202,cliango-0174,PD,1,2,Investigate,763.0,,H2,monthly,1
+cliango_202,cliango-0175,T3,1,4,Critical,2335.0,,C2H4,daily / continuous,1
+cliango_202,cliango-0176,D2,1,2,Investigate,21.6,,C2H2,monthly,1
+cliango_202,cliango-0177,T3,1,4,Critical,1530.0,,C2H2,daily / continuous,1
+cliango_202,cliango-0178,PD,1,4,Critical,1922.1,,H2,daily / continuous,1
+cliango_202,cliango-0179,Normal,0,1,Normal,89.5,,,annual,0
+cliango_202,cliango-0180,PD,1,4,Critical,7464.54,,H2,daily / continuous,1
+cliango_202,cliango-0181,T1,1,2,Investigate,262.0,,C2H4,monthly,1
+cliango_202,cliango-0182,PD,1,2,Investigate,254.5,,H2,monthly,1
+cliango_202,cliango-0183,D2,1,4,Critical,629.5,,C2H2,daily / continuous,1
+cliango_202,cliango-0184,D1,1,1,Normal,50.4,,,annual,0
+cliango_202,cliango-0185,T3,1,4,Critical,656.8,,C2H4,daily / continuous,1
+cliango_202,cliango-0186,PD,1,2,Investigate,242.3,,H2,monthly,1
+cliango_202,cliango-0187,D2,1,3,Warning,585.0,,C2H2,weekly,1
+cliango_202,cliango-0188,D1,1,2,Investigate,56.1,,C2H2,monthly,1
+cliango_202,cliango-0189,D2,1,4,Critical,1608.1,,C2H2,daily / continuous,1
+cliango_202,cliango-0190,T3,1,2,Investigate,102.6,,C2H2,monthly,1
+cliango_202,cliango-0191,PD,1,4,Critical,2580.3,,H2,daily / continuous,1
+cliango_202,cliango-0192,Normal,0,1,Normal,99.33,,,annual,0
+cliango_202,cliango-0193,D2,1,4,Critical,451.6,,C2H2,daily / continuous,1
+cliango_202,cliango-0194,T3,1,4,Critical,532.0,,C2H4,daily / continuous,1
+cliango_202,cliango-0195,Normal,0,1,Normal,55.6,,,annual,0
+cliango_202,cliango-0196,Normal,0,2,Investigate,100.78,,C2H2,monthly,1
+cliango_202,cliango-0197,D2,1,3,Warning,376.5,,C2H2,weekly,1
+cliango_202,cliango-0198,D2,1,4,Critical,364.5,,C2H2,daily / continuous,1
+cliango_202,cliango-0199,D2,1,2,Investigate,35.61,,C2H2,monthly,1
+cliango_202,cliango-0200,T1,1,4,Critical,1838.0,,C2H4,daily / continuous,1
+cliango_202,cliango-0201,Normal,0,1,Normal,31.9,,,annual,0

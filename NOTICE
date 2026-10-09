@@ -1,0 +1,75 @@
+dga-edge
+========
+
+Copyright (c) 2026 dga-edge contributors
+Licensed under the MIT License (see LICENSE).
+
+This product includes material derived from third-party sources. The
+attributions below are required by the respective licences.
+
+
+1. Algorithm reference implementation (MIT)
+-------------------------------------------
+
+  dga-diagtool
+  https://github.com/ToniMellin/dga-diagtool
+  Copyright (c) 2022-2026 Toni Mellin
+  Licensed under the MIT License.
+
+  Used for: transcribing the IEC 60599 (2015) ratio bands, the IEEE C57.104-2019
+  Rogers and Doernenburg decision logic, and the Duval Triangle 1 zone polygons
+  into dga_core/tables.py. No source file was copied verbatim; the tables and
+  decision rules were re-expressed in a zero-dependency implementation.
+
+  The upstream project also ships a ThirdPartyNotices.txt. If you redistribute
+  code taken directly from dga-diagtool (rather than re-derived tables), carry
+  that notice forward as well.
+
+
+2. Published threshold tables (academic sources, no code copied)
+---------------------------------------------------------------
+
+  [S1] Lu, C. and Chen, ... (2014). Advanced Winding Models and Ontology-Based
+       Fault Diagnosis. University of Liverpool.
+       Table 1.3 "IEC code for DGA fault diagnosis".
+       https://livrepository.liverpool.ac.uk/19593/4/LuChe_July2014_19593.pdf
+
+  [S2] SSRG International Journal of Electrical and Electronics Engineering,
+       Vol. 2, Issue 4, April 2015. Tables 2 and 3.
+       https://www.internationaljournalssrg.org/IJEEE/2015/Volume2-Issue4/IJEEE-V2I4P101.pdf
+
+  Used for: the classic IEC three-ratio (三比值法) 0/1/2 coding table and fault
+  lookup table in dga_core/tables.py. Only factual threshold values were taken.
+  See docs/STANDARDS.md for a full provenance record and the documented
+  divergences between sources.
+
+
+3. Datasets (NOT redistributed)
+-------------------------------
+
+  No dataset is included in this repository. Every upstream dataset repository
+  carries no open-source licence, so redistributing the data would be a licence
+  violation. scripts/fetch_datasets.py downloads the data on demand and verifies
+  SHA-256 hashes recorded in data/manifest.json.
+
+  - alan-456/transformer-fault-dataset (589 samples, 6 fault classes)
+    https://github.com/alan-456/transformer-fault-dataset
+  - Cliango/DGA (202 samples, includes a Normal class)
+    https://github.com/Cliango/DGA
+
+  Both are used here for non-commercial research and educational validation
+  only. Cite the original sources, not this repository.
+
+
+4. Standards referenced
+-----------------------
+
+  IEC 60599 - Mineral oil-filled electrical equipment in service: Guidance on
+              the interpretation of dissolved and free gases analysis.
+  IEEE C57.104 - Guide for the Interpretation of Gases Generated in Mineral
+                 Oil-Immersed Transformers.
+  CIGRE TB 771 - Advances in DGA interpretation.
+
+  These are copyrighted standards documents. No standard text is reproduced
+  here; only published threshold values, with their source recorded in
+  docs/STANDARDS.md.

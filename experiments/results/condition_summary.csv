@@ -1,0 +1,3 @@
+n,tp,fp,tn,fn,accuracy_pct,recall_fault_pct,specificity_pct,precision_pct,false_alarm_pct,dataset,n_normal_labelled
+589,564,0,0,25,95.8,95.8,,100.0,,alan456_589,0
+202,160,4,30,8,94.1,95.2,88.2,97.6,11.8,cliango_202,34

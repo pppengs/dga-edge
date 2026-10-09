@@ -1,0 +1,9 @@
+# Deployment assets are executed on the target (Jetson Nano, Linux). CRLF line
+# endings break the shebang line, so keep them LF everywhere regardless of the
+# contributor's platform or core.autocrlf setting.
+*.sh      text eol=lf
+*.service text eol=lf
+
+# Everything else: normalise to LF in the repository, let Git pick the working
+# copy form.
+* text=auto
