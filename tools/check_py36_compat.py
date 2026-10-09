@@ -217,17 +217,25 @@ def _version_of_unparsable(source, lineno):
 def check_file(path):
     with open(path, "r", encoding="utf-8") as fh:
         source = fh.read()
+    problems = []
+    tree = None
     try:
         tree = ast.parse(source, filename=path)
     except SyntaxError as exc:
-        return [(exc.lineno or 0,
-                 _version_of_unparsable(source, exc.lineno or 0),
-                 "SYNTAX ERROR: {}".format(exc.msg))]
+        problems.append((exc.lineno or 0,
+                         _version_of_unparsable(source, exc.lineno or 0),
+                         "SYNTAX ERROR: {}".format(exc.msg)))
 
-    checker = Checker(path)
-    checker.visit(tree)
-    check_string_features(source, path, checker.problems)
-    return checker.problems
+    if tree is not None:
+        checker = Checker(path)
+        checker.visit(tree)
+        problems.extend(checker.problems)
+
+    # Run the lexical pass even when the parser gave up. Tokenising is version
+    # agnostic, so on 3.6 - where an f"{x=}" is a syntax error rather than an
+    # AST - this is the only pass still able to name the real reason.
+    check_string_features(source, path, problems)
+    return problems
 
 
 def check_package(root):

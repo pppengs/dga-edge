@@ -144,11 +144,13 @@ def gate_zero_dependency():
         "assert monitor(s).condition in (1, 2, 3, 4)\n"
         "print('  diagnosis + condition monitoring OK')\n"
     ).format(pkgs=list(DEPLOYABLE))
+    # capture_output= / text= are 3.7+; this gate is also meant to run on the
+    # 3.6 target itself, so decode explicitly instead.
     proc = subprocess.run([sys.executable, "-c", code], cwd=ROOT,
-                          capture_output=True, text=True)
-    sys.stdout.write(proc.stdout)
+                          stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    sys.stdout.write(proc.stdout.decode("utf-8", "replace"))
     if proc.returncode != 0:
-        sys.stderr.write(proc.stderr)
+        sys.stderr.write(proc.stderr.decode("utf-8", "replace"))
         print("-> FAIL")
         print("")
         return False
